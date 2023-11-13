@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage";
 import DriversPage from "./pages/DriversPage";
 import TeamsPage from "./pages/TeamsPage";
 import RacesPage from "./pages/RacesPage";
+import QuizPage from "./pages/QuizPage";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
         <Link to="/drivers">Drivers</Link>
         <Link to="/teams">Teams</Link>
         <Link to="/races">Races</Link>
+        <Link to="/quiz">Quiz</Link>
+
         {/* Add other links */}
       </nav>
 
@@ -20,6 +23,7 @@ function App() {
         <Route path="/drivers" element={<DriversPage />} />
         <Route path="/teams" element={<TeamsPage />} />
         <Route path="/races" element={<RacesPage />} />
+        <Route path="/quiz" element={<QuizPage />} />
         {/* Define other routes */}
       </Routes>
     </Router>
