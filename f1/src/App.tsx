@@ -1,28 +1,29 @@
-// function App() {
-//   return <></>;
-// }
-// export default App;
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import DriversPage from "./pages/DriversPage";
+import TeamsPage from "./pages/TeamsPage";
+import RacesPage from "./pages/RacesPage";
 
-// import React from "react";
+function App() {
+  return (
+    <Router>
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/drivers">Drivers</Link>
+        <Link to="/teams">Teams</Link>
+        <Link to="/races">Races</Link>
+        {/* Add other links */}
+      </nav>
 
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-// import HomePage from "./pages/HomePage";
-// import DriversPage from "./pages/DriversPage";
-// import TeamsPage from "./pages/TeamsPage";
-// import RacesPage from "./pages/RacesPage";
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/drivers" element={<DriversPage />} />
+        <Route path="/teams" element={<TeamsPage />} />
+        <Route path="/races" element={<RacesPage />} />
+        {/* Define other routes */}
+      </Routes>
+    </Router>
+  );
+}
 
-// function App() {
-//   return (
-//     <Router>
-//       <Routes>
-//         <Route path="/" element={<HomePage />} />
-//         <Route path="/drivers" element={<DriversPage />} />
-//         <Route path="/teams" element={<TeamsPage />} />
-//         <Route path="/races" element={<RacesPage />} />
-//         {/* Define other routes */}
-//       </Routes>
-//     </Router>
-//   );
-// }
-
-// export default App;
+export default App;
