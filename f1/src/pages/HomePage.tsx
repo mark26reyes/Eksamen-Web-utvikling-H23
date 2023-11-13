@@ -1,6 +1,6 @@
 // import React from "react";
 
-// const Home = () => {
+// const HomePage = () => {
 //   return (
 //     <div>
 //       <h1>Welcome to the F1 Event App</h1>
@@ -9,4 +9,4 @@
 //   );
 // };
 
-// export default Home;
+// export default HomePage;
