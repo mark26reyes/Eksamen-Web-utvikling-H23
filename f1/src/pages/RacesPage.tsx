@@ -1,9 +1,9 @@
 const RacesPage = () => {
   return (
-    <div>
+    <section>
       <h1>Welcome to the Races App</h1>
       <p>This is the races page of the app.</p>
-    </div>
+    </section>
   );
 };
 

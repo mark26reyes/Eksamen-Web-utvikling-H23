@@ -1,9 +1,9 @@
 const HomePage = () => {
   return (
-    <div>
+    <section>
       <h1>Welcome to the F1 Event App</h1>
       <p>This is the home page of the app.</p>
-    </div>
+    </section>
   );
 };
 
