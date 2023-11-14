@@ -1,9 +1,9 @@
 const TeamsPage = () => {
   return (
-    <section>
+    <div>
       <h1>Welcome to the Teams</h1>
       <p>This is the team page of the app.</p>
-    </section>
+    </div>
   );
 };
 
