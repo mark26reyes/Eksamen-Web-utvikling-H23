@@ -8,6 +8,7 @@ export const RaceProvider = ({ children }) => {
   const [races, setRaces] = useState([]);
 
   // Add functions to modify races here
+  const getRasesFromService = async () => {};
 
   return (
     <RaceContext.Provider value={{ races, setRaces }}>

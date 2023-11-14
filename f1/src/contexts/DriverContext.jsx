@@ -8,6 +8,7 @@ export const DriverProvider = ({ children }) => {
   const [drivers, setDrivers] = useState([]);
 
   // Add functions to modify drivers here
+  const getDriversFromService = async () => {};
 
   return (
     <DriverContext.Provider value={{ drivers, setDrivers }}>

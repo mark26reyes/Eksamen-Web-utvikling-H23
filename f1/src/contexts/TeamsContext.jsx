@@ -8,6 +8,7 @@ export const TeamProvider = ({ children }) => {
   const [teams, setTeams] = useState([]);
 
   // Add functions to modify teams here
+  getTeamsFromService = async () => {};
 
   return (
     <TeamContext.Provider value={{ teams, setTeams }}>
