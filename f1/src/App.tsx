@@ -9,13 +9,23 @@ function App() {
   return (
     <Router>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/drivers">Drivers</Link>
-        <Link to="/teams">Teams</Link>
-        <Link to="/races">Races</Link>
-        <Link to="/quiz">Quiz</Link>
-
-        {/* Add other links */}
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/drivers">Drivers</Link>
+          </li>
+          <li>
+            <Link to="/teams">Teams</Link>
+          </li>
+          <li>
+            <Link to="/races">Races</Link>
+          </li>
+          <li>
+            <Link to="/quiz">Quiz</Link>
+          </li>
+        </ul>
       </nav>
 
       <Routes>
