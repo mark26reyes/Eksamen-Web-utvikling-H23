@@ -1,16 +1,8 @@
 import React from "react";
+import DriversItem from "./DriversItem";
 
 function DriversList({ drivers }) {
-  return (
-    <div>
-      <h2>Drivers List</h2>
-      <ul>
-        {drivers.map((driver, index) => (
-          <li key={index}>{driver.name}</li>
-        ))}
-      </ul>
-    </div>
-  );
+  return DriversItem;
 }
 
 export default DriversList;
