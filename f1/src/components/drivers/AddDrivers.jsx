@@ -11,17 +11,28 @@ function AddDrivers() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label>
-        Driver Name:
-        <input
-          type="text"
-          value={driverName}
-          onChange={(e) => setDriverName(e.target.value)}
-        />
-      </label>
-      <button type="submit">Add Driver</button>
-    </form>
+    <section>
+      <h1>Register as new driver</h1>
+      <form onSubmit={handleSubmit}>
+        <label>
+          Name:
+          <input
+            type="text"
+            value={driverName}
+            onChange={(e) => setDriverName(e.target.value)}
+          />
+        </label>
+        <br />
+        <br />
+        <label>
+          Team:
+          <input type="text" name="" id="" />
+        </label>
+        <br />
+        <br />
+        <button type="submit">Add Driver</button>
+      </form>
+    </section>
   );
 }
 
