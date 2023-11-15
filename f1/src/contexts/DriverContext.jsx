@@ -7,14 +7,12 @@ export const DriverProvider = ({ children }) => {
   const [drivers, setDrivers] = useState([]);
 
   useEffect(() => {
-    setTimeout(() => {
-      getDriversFromService();
-    }, 2000);
+    getDriversFromService();
   }, []);
-
   // Add functions to modify drivers here
   const getDriversFromService = async () => {
     const driversFromService = await F1Service.getAll();
+    setDrivers(driversFromService);
   };
 
   return (

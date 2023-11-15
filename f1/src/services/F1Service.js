@@ -11,7 +11,7 @@ const F1Service = (() => {
       const result = await axios.get(driverController);
       return result.data;
     } catch (err) {
-      console.log("Ikke kontakt med SeriesController");
+      console.log("Ikke kontakt med driverController");
       return [];
     }
   };
