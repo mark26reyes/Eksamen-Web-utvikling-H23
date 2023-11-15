@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1API - Web Interface</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.0/axios.min.js"></script>
+    <script type="module" src="scripts/index.js"></script>
+    <style>img{height: 150px;}</style>
+</head>
+<body>
+
+    <div>
+
+        <header>
+            <h1>Første Axios Test med F1API</h1>
+        </header>
+
+        <main>
+             <section id="api-documentation">
+                <h2>API Documentation</h2>
+           <ul>
+               <li><strong>GET /api/drivers</strong> - Retrieves a list of all drivers.</li>
+              <li><strong>GET /api/drivers/{id}</strong> - Retrieves a driver by their ID.</li>
+              <li><strong>POST /api/drivers</strong> - Adds a new driver to the database. Requires driver details in the request body.</li>
+              <li><strong>PUT /api/drivers/{id}</strong> - Updates an existing driver's details. Requires driver ID and new details in the request body.</li>
+              <li><strong>DELETE /api/drivers/{id}</strong> - Deletes a driver from the database by their ID.</li>
+    </ul>
+    <h3>Teams Endpoints</h3>
+    <ul>
+        <li><strong>GET /api/teams</strong> - Retrieves a list of all teams.</li>
+        <li><strong>GET /api/teams/{id}</strong> - Retrieves a team by their ID.</li>
+        <!-- Add POST, PUT, DELETE for teams if implemented -->
+    </ul>
+
+            </section>
+
+            <section id="menu">
+                <button id="get-all-drivers-btn">Get All Drivers</button>
+                <button id="get-driver-by-id-btn">Get Driver by ID</button>
+                <button id="post-driver-btn">Add New Driver to Database!</button>  
+                <button id="delete-driver-btn">Delete a Driver</button>
+                <button id="edit-driver-btn">Edit a Driver</button>
+            </section>
+
+            <section id="output-section"></section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/albon.png",
+      "PackagePath": "staticwebassets/images/albon.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/alfaromeo.png",
+      "PackagePath": "staticwebassets/images/alfaromeo.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/alonso.png",
+      "PackagePath": "staticwebassets/images/alonso.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/alphatauri.png",
+      "PackagePath": "staticwebassets/images/alphatauri.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/alpine.png",
+      "PackagePath": "staticwebassets/images/alpine.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/astonmartin.png",
+      "PackagePath": "staticwebassets/images/astonmartin.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/bottas.png",
+      "PackagePath": "staticwebassets/images/bottas.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/ferrari.png",
+      "PackagePath": "staticwebassets/images/ferrari.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/gasly.png",
+      "PackagePath": "staticwebassets/images/gasly.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/guanyu.png",
+      "PackagePath": "staticwebassets/images/guanyu.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/haas.png",
+      "PackagePath": "staticwebassets/images/haas.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/hamilton.png",
+      "PackagePath": "staticwebassets/images/hamilton.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/hulkenberg.png",
+      "PackagePath": "staticwebassets/images/hulkenberg.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/lawson.png",
+      "PackagePath": "staticwebassets/images/lawson.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/leclerc.png",
+      "PackagePath": "staticwebassets/images/leclerc.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/magnussen.png",
+      "PackagePath": "staticwebassets/images/magnussen.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/mclaren.png",
+      "PackagePath": "staticwebassets/images/mclaren.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/mercedes.png",
+      "PackagePath": "staticwebassets/images/mercedes.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/norris.png",
+      "PackagePath": "staticwebassets/images/norris.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/ocon.png",
+      "PackagePath": "staticwebassets/images/ocon.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/perez.png",
+      "PackagePath": "staticwebassets/images/perez.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/piastri.png",
+      "PackagePath": "staticwebassets/images/piastri.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/redbull.png",
+      "PackagePath": "staticwebassets/images/redbull.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/ricciardo.png",
+      "PackagePath": "staticwebassets/images/ricciardo.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/russell.png",
+      "PackagePath": "staticwebassets/images/russell.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/sainz.png",
+      "PackagePath": "staticwebassets/images/sainz.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/sargeant.png",
+      "PackagePath": "staticwebassets/images/sargeant.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/stroll.png",
+      "PackagePath": "staticwebassets/images/stroll.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/tsunoda.png",
+      "PackagePath": "staticwebassets/images/tsunoda.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/verstappen.png",
+      "PackagePath": "staticwebassets/images/verstappen.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/vries.png",
+      "PackagePath": "staticwebassets/images/vries.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/images/williams.png",
+      "PackagePath": "staticwebassets/images/williams.png"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/mark/Downloads/F1API/wwwroot/scripts/index.js",
+      "PackagePath": "staticwebassets/scripts/index.js"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.F1API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.F1API.props",
+      "PackagePath": "build\\F1API.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.F1API.props",
+      "PackagePath": "buildMultiTargeting\\F1API.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.F1API.props",
+      "PackagePath": "buildTransitive\\F1API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
