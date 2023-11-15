@@ -1,16 +1,29 @@
-import React from "react";
+import RacesItem from "./RacesItem";
+import F1Service from "../../services/F1Service";
+import RacesContext from "../../contexts/RacesContext";
+import { useContext, useEffect } from "react";
 
-function RacesList({ races }) {
+const RacesList = () => {
+  const { races } = useContext(RacesContext);
+
+  const getRacesJSX = () => {
+    const racesJSX = races.map((_races, i) => (
+      <RacesItem
+        key={i}
+        winnerName={_races.winnerName}
+        winnerTime={_races.winnerTime}
+        grandPrix={_races.grandPrix}
+        numberOfLaps={_races.numberOfLaps}
+      />
+    ));
+    return racesJSX;
+  };
   return (
-    <div>
-      <h2>Races List</h2>
-      <ul>
-        {races.map((race, index) => (
-          <li key={index}>{race.name}</li>
-        ))}
-      </ul>
-    </div>
+    <section>
+      <h1>Races</h1>
+      <section>{getRacesJSX()}</section>
+    </section>
   );
-}
+};
 
 export default RacesList;
