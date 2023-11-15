@@ -45,6 +45,7 @@ const F1Service = (() => {
     putDriver,
     postDriver,
     getAllRaces,
+    getAllTeams,
   };
 })();
 
