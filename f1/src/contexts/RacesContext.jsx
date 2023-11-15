@@ -1,18 +1,23 @@
-import React, { createContext, useState, useContext } from "react";
+import React, { createContext, useState, useContext, useEffect } from "react";
+import F1Service from "../services/F1Service";
 
-const RaceContext = createContext();
+const RacesContext = createContext();
 
-export const useRaces = () => useContext(RaceContext);
-
-export const RaceProvider = ({ children }) => {
+export const RacesProvider = ({ children }) => {
   const [races, setRaces] = useState([]);
 
-  // Add functions to modify races here
-  const getRasesFromService = async () => {};
+  useEffect(() => {
+    getAllRacesFromService();
+  }, []);
+  // Add functions to modify Races here
+  const getAllRacesFromService = async () => {
+    const racesFromService = await F1Service.getAllRaces();
+    setRaces(racesFromService);
+  };
 
   return (
-    <RaceContext.Provider value={{ races, setRaces }}>
-      {children}
-    </RaceContext.Provider>
+    <RacesContext.Provider value={{ races }}>{children}</RacesContext.Provider>
   );
 };
+
+export default RacesContext;

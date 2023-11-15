@@ -16,6 +16,26 @@ const F1Service = (() => {
     }
   };
 
+  const getAllRaces = async () => {
+    try {
+      const result = await axios.get(racesController);
+      return result.data;
+    } catch (err) {
+      console.log("Ikke kontakt med racesController");
+      return [];
+    }
+  };
+
+  const getAllTeams = async () => {
+    try {
+      const result = await axios.get(teamsController);
+      return result.data;
+    } catch (err) {
+      console.log("Ikke kontakt med teamsController");
+      return [];
+    }
+  };
+
   const putDriver = async () => {};
 
   const postDriver = async () => {};
@@ -24,6 +44,8 @@ const F1Service = (() => {
     getAll,
     putDriver,
     postDriver,
+    getAllRaces,
+    getAllTeams,
   };
 })();
 
