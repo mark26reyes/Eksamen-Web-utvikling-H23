@@ -10,7 +10,7 @@ const F1Service = (() => {
     return baseURL;
   };
 
-  const getAll = async () => {
+  const getAllDrivers = async () => {
     try {
       const result = await axios.get(driverController);
       return result.data;

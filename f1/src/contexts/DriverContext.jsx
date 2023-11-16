@@ -11,7 +11,7 @@ export const DriverProvider = ({ children }) => {
   }, []);
   // Add functions to modify drivers here
   const getDriversFromService = async () => {
-    const driversFromService = await F1Service.getAll();
+    const driversFromService = await F1Service.getAllDrivers();
     setDrivers(driversFromService);
   };
 
