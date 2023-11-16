@@ -45,7 +45,7 @@ const F1Service = (() => {
   const postDriver = async () => {};
 
   return {
-    getAll,
+    getAllDrivers,
     putDriver,
     postDriver,
     getAllRaces,
