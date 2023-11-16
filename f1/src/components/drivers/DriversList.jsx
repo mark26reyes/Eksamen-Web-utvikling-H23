@@ -14,15 +14,24 @@ const DriversList = () => {
         name={_drivers.name}
         age={_drivers.age}
         image={_drivers.image}
+        nationality={_drivers.nationality}
       />
     ));
     return driversJSX;
   };
   return (
-    <section>
+    <div className="container">
       <h1>Drivers</h1>
-      <section>{getDriversJSX()}</section>
-    </section>
+      <div className="row">
+        {getDriversJSX().map((driver, index) => (
+          <div key={index} className="col-md-4 mb-4">
+            <div className="card shadow-sm bg-body-tertiary rounded">
+              <div className="card-body">{driver}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 };
 

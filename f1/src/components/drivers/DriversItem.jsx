@@ -1,12 +1,12 @@
 import F1Service from "../../services/F1Service";
 
-const DriversItem = ({ name, age, image }) => {
-  const baseURL = F1Service.getBaseUrl();
+const DriversItem = ({ name, age, nationality, image }) => {
   return (
     <section>
-      <h3>{name}</h3>
-      <p>{age}</p>
-      <img src={`${baseURL}/${image}`} alt="Image of driver" />
+      <h3 className="f1-bold-font">{name}</h3>
+      <p> Age: {age}</p>
+      <p>Nationality: {nationality}</p>
+      <img src={`http://localhost:5008/${image}`} alt="Picture of drivers" />
     </section>
   );
 };
