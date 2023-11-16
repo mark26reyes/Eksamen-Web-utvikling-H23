@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7GNvscbesDJZ14h+rrnuVP2RIvL1wpxctJLqi/2ygo8=",
+  "Hash": "csTGYHNOdsWVyL+9HGCDn8VgwSG0tu47k5/Gq7DlQW4=",
   "Source": "F1API",
   "BasePath": "_content/F1API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "F1API/wwwroot",
       "Source": "F1API",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/albon.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/albon.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/albon.png",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot/images/albon.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/alfaromeo.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/alfaromeo.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/alfaromeo.png",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot/images/alfaromeo.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/alonso.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/alonso.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/alonso.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot/images/alonso.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/alphatauri.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/alphatauri.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/alphatauri.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot/images/alphatauri.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/alpine.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/alpine.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/alpine.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot/images/alpine.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/astonmartin.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/astonmartin.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/astonmartin.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot/images/astonmartin.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/bottas.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/bottas.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/bottas.png",
       "AssetKind": "All",
@@ -136,10 +136,27 @@
       "OriginalItemSpec": "wwwroot/images/bottas.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/ferrari.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/devries.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
+      "BasePath": "_content/F1API",
+      "RelativePath": "images/devries.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/devries.png"
+    },
+    {
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/ferrari.png",
+      "SourceId": "F1API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/ferrari.png",
       "AssetKind": "All",
@@ -153,10 +170,10 @@
       "OriginalItemSpec": "wwwroot/images/ferrari.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/gasly.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/gasly.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/gasly.png",
       "AssetKind": "All",
@@ -170,10 +187,10 @@
       "OriginalItemSpec": "wwwroot/images/gasly.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/guanyu.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/guanyu.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/guanyu.png",
       "AssetKind": "All",
@@ -187,10 +204,10 @@
       "OriginalItemSpec": "wwwroot/images/guanyu.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/haas.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/haas.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/haas.png",
       "AssetKind": "All",
@@ -204,10 +221,10 @@
       "OriginalItemSpec": "wwwroot/images/haas.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/hamilton.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/hamilton.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/hamilton.png",
       "AssetKind": "All",
@@ -221,10 +238,10 @@
       "OriginalItemSpec": "wwwroot/images/hamilton.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/hulkenberg.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/hulkenberg.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/hulkenberg.png",
       "AssetKind": "All",
@@ -238,10 +255,10 @@
       "OriginalItemSpec": "wwwroot/images/hulkenberg.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/lawson.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/lawson.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/lawson.png",
       "AssetKind": "All",
@@ -255,10 +272,10 @@
       "OriginalItemSpec": "wwwroot/images/lawson.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/leclerc.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/leclerc.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/leclerc.png",
       "AssetKind": "All",
@@ -272,10 +289,10 @@
       "OriginalItemSpec": "wwwroot/images/leclerc.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/magnussen.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/magnussen.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/magnussen.png",
       "AssetKind": "All",
@@ -289,10 +306,10 @@
       "OriginalItemSpec": "wwwroot/images/magnussen.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/mclaren.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/mclaren.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/mclaren.png",
       "AssetKind": "All",
@@ -306,10 +323,10 @@
       "OriginalItemSpec": "wwwroot/images/mclaren.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/mercedes.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/mercedes.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/mercedes.png",
       "AssetKind": "All",
@@ -323,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/images/mercedes.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/norris.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/norris.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/norris.png",
       "AssetKind": "All",
@@ -340,10 +357,10 @@
       "OriginalItemSpec": "wwwroot/images/norris.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/ocon.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/ocon.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/ocon.png",
       "AssetKind": "All",
@@ -357,10 +374,10 @@
       "OriginalItemSpec": "wwwroot/images/ocon.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/perez.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/perez.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/perez.png",
       "AssetKind": "All",
@@ -374,10 +391,10 @@
       "OriginalItemSpec": "wwwroot/images/perez.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/piastri.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/piastri.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/piastri.png",
       "AssetKind": "All",
@@ -391,10 +408,10 @@
       "OriginalItemSpec": "wwwroot/images/piastri.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/redbull.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/redbull.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/redbull.png",
       "AssetKind": "All",
@@ -408,10 +425,10 @@
       "OriginalItemSpec": "wwwroot/images/redbull.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/ricciardo.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/ricciardo.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/ricciardo.png",
       "AssetKind": "All",
@@ -425,10 +442,10 @@
       "OriginalItemSpec": "wwwroot/images/ricciardo.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/russell.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/russell.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/russell.png",
       "AssetKind": "All",
@@ -442,10 +459,10 @@
       "OriginalItemSpec": "wwwroot/images/russell.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/sainz.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/sainz.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/sainz.png",
       "AssetKind": "All",
@@ -459,10 +476,10 @@
       "OriginalItemSpec": "wwwroot/images/sainz.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/sargeant.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/sargeant.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/sargeant.png",
       "AssetKind": "All",
@@ -476,10 +493,10 @@
       "OriginalItemSpec": "wwwroot/images/sargeant.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/stroll.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/stroll.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/stroll.png",
       "AssetKind": "All",
@@ -493,10 +510,10 @@
       "OriginalItemSpec": "wwwroot/images/stroll.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/tsunoda.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/tsunoda.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/tsunoda.png",
       "AssetKind": "All",
@@ -510,10 +527,10 @@
       "OriginalItemSpec": "wwwroot/images/tsunoda.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/verstappen.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/verstappen.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/verstappen.png",
       "AssetKind": "All",
@@ -527,27 +544,10 @@
       "OriginalItemSpec": "wwwroot/images/verstappen.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/vries.png",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/williams.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
-      "BasePath": "_content/F1API",
-      "RelativePath": "images/vries.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/vries.png"
-    },
-    {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/images/williams.png",
-      "SourceId": "F1API",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "images/williams.png",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot/images/williams.png"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/index.html",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/index.html",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot/index.html"
     },
     {
-      "Identity": "/Users/mark/Downloads/F1API/wwwroot/scripts/index.js",
+      "Identity": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/scripts/index.js",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mark/Downloads/F1API/wwwroot/",
+      "ContentRoot": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/",
       "BasePath": "_content/F1API",
       "RelativePath": "scripts/index.js",
       "AssetKind": "All",
