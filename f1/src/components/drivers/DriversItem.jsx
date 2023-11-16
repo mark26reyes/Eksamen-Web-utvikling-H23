@@ -1,4 +1,4 @@
-import F1Service from "../../services/F1Service";
+import DriverService from "../../services/DriverService";
 
 const DriversItem = ({ name, age, nationality, image }) => {
   return (

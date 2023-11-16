@@ -1,7 +1,7 @@
 import { useContext, useEffect } from "react";
 import React from "react";
 import DriversItem from "./DriversItem";
-import F1Service from "../../services/F1Service";
+import DriverService from "../../services/DriverService";
 import DriverContext from "../../contexts/DriverContext";
 
 const DriversList = () => {

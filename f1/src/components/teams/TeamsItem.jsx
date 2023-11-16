@@ -1,5 +1,3 @@
-import F1Service from "../../services/F1Service";
-
 const TeamsItem = ({ manufactur, image, driverName, driverName2 }) => {
   const baseURL = F1Service.getBaseUrl();
   return (

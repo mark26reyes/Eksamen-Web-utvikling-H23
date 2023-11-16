@@ -1,5 +1,4 @@
 import RacesItem from "./RacesItem";
-import F1Service from "../../services/F1Service";
 import RacesContext from "../../contexts/RacesContext";
 import { useContext, useEffect } from "react";
 

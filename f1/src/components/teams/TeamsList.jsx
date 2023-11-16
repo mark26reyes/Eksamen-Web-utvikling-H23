@@ -1,7 +1,6 @@
 import { useContext, useEffect } from "react";
 import React from "react";
 import TeamsItem from "./TeamsItem";
-import F1Service from "../../services/F1Service";
 import TeamsContext from "../../contexts/TeamsContext";
 
 const TeamsList = () => {

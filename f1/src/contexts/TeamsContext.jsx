@@ -1,5 +1,4 @@
 import React, { createContext, useState, useContext, useEffect } from "react";
-import F1Service from "../services/F1Service";
 
 const TeamsContext = createContext();
 
