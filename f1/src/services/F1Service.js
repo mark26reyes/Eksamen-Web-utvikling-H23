@@ -1,10 +1,14 @@
 import axios from "axios";
 
 const F1Service = (() => {
-  const driverController = "http://localhost:5008/api/drivers";
-  const teamsController = "http://localhost:5008/api/teams";
-  const racesController = "http://localhost:5008/api/races";
-  const quizController = "";
+  const baseURL = "http://localhost:5008";
+  const driverController = `${baseURL}/api/drivers`;
+  const teamsController = `${baseURL}/api/teams`;
+  const racesController = `${baseURL}/api/races`;
+
+  const getBaseUrl = () => {
+    return baseURL;
+  };
 
   const getAll = async () => {
     try {
@@ -46,6 +50,7 @@ const F1Service = (() => {
     postDriver,
     getAllRaces,
     getAllTeams,
+    getBaseUrl,
   };
 })();
 
