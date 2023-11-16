@@ -1,20 +1,20 @@
 import axios from "axios";
+import { ITeams } from "../interfaces/ITeams";
 
 const TeamsService = (() => {
-  const baseURL = "http://localhost:5008";
+  const baseURL: string = "http://localhost:5008";
+  const teamsController: string = `${baseURL}/api/teams`;
 
-  const teamsController = `${baseURL}/api/teams`;
-
-  const getBaseUrl = () => {
+  const getBaseUrl = (): string => {
     return baseURL;
   };
 
-  const getAllTeams = async () => {
+  const getAllTeams = async (): Promise<ITeams[]> => {
     try {
       const result = await axios.get(teamsController);
       return result.data;
     } catch (err) {
-      console.log("Ikke kontakt med teamsController");
+      console.error("Ikke kontakt med teamsController");
       return [];
     }
   };

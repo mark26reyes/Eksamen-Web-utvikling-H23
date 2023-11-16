@@ -1,23 +1,23 @@
 import axios from "axios";
+import { IRaces } from "../interfaces/IRaces";
 
 const RacesService = (() => {
-  const baseURL = "http://localhost:5008";
-  const racesController = `${baseURL}/api/races`;
+  const baseURL: string = "http://localhost:5008";
+  const racesController: string = `${baseURL}/api/races`;
 
-  const getBaseUrl = () => {
+  const getBaseUrl = (): string => {
     return baseURL;
   };
 
-  const getAllRaces = async () => {
+  const getAllRaces = async (): Promise<IRaces[]> => {
     try {
       const result = await axios.get(racesController);
       return result.data;
     } catch (err) {
-      console.log("Ikke kontakt med racesController");
+      console.error("Ikke kontakt med racesController");
       return [];
     }
   };
-
 
   return {
     getAllRaces,
