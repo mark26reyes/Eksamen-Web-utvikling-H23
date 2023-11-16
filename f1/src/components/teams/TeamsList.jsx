@@ -11,7 +11,7 @@ const TeamsList = () => {
     const teamsJSX = teams.map((_teams, i) => (
       <TeamsItem
         key={i}
-        manufactur={_teams.manufactur}
+        manufacturer={_teams.manufacturer}
         image={_teams.image}
         driverName={_teams.driverName}
         driverName2={_teams.driverName2}
