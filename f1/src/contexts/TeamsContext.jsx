@@ -1,4 +1,5 @@
 import React, { createContext, useState, useContext, useEffect } from "react";
+import TeamsService from "../services/TeamsService";
 
 const TeamsContext = createContext();
 
@@ -10,7 +11,7 @@ export const TeamsProvider = ({ children }) => {
   }, []);
   // Add functions to modify Teams here
   const getTeamsFromService = async () => {
-    const teamsFromService = await F1Service.getAllTeams();
+    const teamsFromService = await TeamsService.getAllTeams();
     setTeams(teamsFromService);
   };
 

@@ -1,5 +1,7 @@
+import TeamsService from "../../services/TeamsService";
+
 const TeamsItem = ({ manufactur, image, driverName, driverName2 }) => {
-  const baseURL = F1Service.getBaseUrl();
+  const baseURL = TeamsService.getBaseUrl();
   return (
     <section>
       <h3>{manufactur}</h3>

@@ -1,5 +1,5 @@
 import React, { createContext, useState, useContext, useEffect } from "react";
-import RacesService from "../../services/RacesService";
+import RacesService from "../services/RacesService";
 
 const RacesContext = createContext();
 
@@ -11,7 +11,7 @@ export const RacesProvider = ({ children }) => {
   }, []);
   // Add functions to modify Races here
   const getAllRacesFromService = async () => {
-    const racesFromService = await F1Service.getAllRaces();
+    const racesFromService = await RacesService.getAllRaces();
     setRaces(racesFromService);
   };
 
