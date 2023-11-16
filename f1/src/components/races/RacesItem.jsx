@@ -1,3 +1,5 @@
+import RacesService from "../../services/RacesService";
+
 const RacesItem = ({ winnerName, winnerTime, grandPrix, numberOfLaps }) => {
   return (
     <section>
