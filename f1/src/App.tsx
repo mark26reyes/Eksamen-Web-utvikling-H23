@@ -12,7 +12,7 @@ function App() {
     <>
       <Router>
         <header>
-          <nav className="navbar navbar-expand navbar-dark p-4">
+          <nav className="navbar navbar-expand navbar-dark p-3 fixed-top">
             <img src="/public/formula1-logo-hvit.png" width={"80rem"} alt="" />
             <div className="navbar-collapse justify-content-end">
               <ul className="navbar-nav">

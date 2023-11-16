@@ -2,9 +2,11 @@ import AddDrivers from "../components/drivers/AddDrivers";
 
 const HomePage = () => {
   return (
-    <section>
-      <h1>Welcome to the F1 Event App</h1>
-      <p>This is the home page of the app.</p>
+    <section className="mt-5">
+      <br />
+      <br />
+      <h1>Welcome to the F1 Event</h1>
+      <br />
       <AddDrivers />
     </section>
   );

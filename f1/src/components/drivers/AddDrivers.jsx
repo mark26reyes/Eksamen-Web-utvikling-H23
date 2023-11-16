@@ -13,7 +13,7 @@ function AddDrivers() {
 
   return (
     <section>
-      <h1>Register as new driver</h1>
+      <h2>Register as new driver</h2>
       <form onSubmit={handleSubmit}>
         <label>
           Name:

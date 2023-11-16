@@ -18,10 +18,18 @@ const RacesList = () => {
     return racesJSX;
   };
   return (
-    <section>
+    <div className="container">
       <h1>Races</h1>
-      <section>{getRacesJSX()}</section>
-    </section>
+      <div className="row">
+        {getRacesJSX().map((races, index) => (
+          <div key={index} className="col-lg-12 mb-4">
+            <div className="card shadow-sm bg-body-tertiary rounded">
+              <div className="card-body">{races}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 };
 

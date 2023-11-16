@@ -3,9 +3,9 @@ import { RacesProvider } from "../contexts/RacesContext";
 
 const RacesPage = () => {
   return (
-    <section>
-      <h1>Welcome to the Races App</h1>
-      <p>This is the races page of the app.</p>
+    <section className="mt-5">
+      <br />
+      <br />
       <RacesProvider>
         <RacesList />
       </RacesProvider>
