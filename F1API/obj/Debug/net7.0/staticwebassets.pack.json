@@ -1,16 +1,16 @@
 {
   "Files": [
     {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/albon.png",
-      "PackagePath": "staticwebassets/images/albon.png"
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
     },
     {
       "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/alfaromeo.png",
       "PackagePath": "staticwebassets/images/alfaromeo.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/alonso.png",
-      "PackagePath": "staticwebassets/images/alonso.png"
     },
     {
       "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/alphatauri.png",
@@ -25,48 +25,148 @@
       "PackagePath": "staticwebassets/images/astonmartin.png"
     },
     {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/bottas.png",
-      "PackagePath": "staticwebassets/images/bottas.png"
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/cars/.DS_Store",
+      "PackagePath": "staticwebassets/images/cars/.DS_Store"
     },
     {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/devries.png",
-      "PackagePath": "staticwebassets/images/devries.png"
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/cars/alfaromeo.png",
+      "PackagePath": "staticwebassets/images/cars/alfaromeo.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/cars/alphatauri.png",
+      "PackagePath": "staticwebassets/images/cars/alphatauri.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/cars/alpine.png",
+      "PackagePath": "staticwebassets/images/cars/alpine.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/cars/astonmartin.png",
+      "PackagePath": "staticwebassets/images/cars/astonmartin.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/cars/ferrari.png",
+      "PackagePath": "staticwebassets/images/cars/ferrari.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/cars/haas.png",
+      "PackagePath": "staticwebassets/images/cars/haas.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/cars/mclaren.png",
+      "PackagePath": "staticwebassets/images/cars/mclaren.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/cars/mercedes.png",
+      "PackagePath": "staticwebassets/images/cars/mercedes.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/cars/redbull.png",
+      "PackagePath": "staticwebassets/images/cars/redbull.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/cars/williams.png",
+      "PackagePath": "staticwebassets/images/cars/williams.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/albon.png",
+      "PackagePath": "staticwebassets/images/drivers/albon.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/alonso.png",
+      "PackagePath": "staticwebassets/images/drivers/alonso.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/bottas.png",
+      "PackagePath": "staticwebassets/images/drivers/bottas.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/devries.png",
+      "PackagePath": "staticwebassets/images/drivers/devries.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/gasly.png",
+      "PackagePath": "staticwebassets/images/drivers/gasly.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/guanyu.png",
+      "PackagePath": "staticwebassets/images/drivers/guanyu.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/hamilton.png",
+      "PackagePath": "staticwebassets/images/drivers/hamilton.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/hulkenberg.png",
+      "PackagePath": "staticwebassets/images/drivers/hulkenberg.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/lawson.png",
+      "PackagePath": "staticwebassets/images/drivers/lawson.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/leclerc.png",
+      "PackagePath": "staticwebassets/images/drivers/leclerc.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/magnussen.png",
+      "PackagePath": "staticwebassets/images/drivers/magnussen.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/norris.png",
+      "PackagePath": "staticwebassets/images/drivers/norris.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/ocon.png",
+      "PackagePath": "staticwebassets/images/drivers/ocon.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/perez.png",
+      "PackagePath": "staticwebassets/images/drivers/perez.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/piastri.png",
+      "PackagePath": "staticwebassets/images/drivers/piastri.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/ricciardo.png",
+      "PackagePath": "staticwebassets/images/drivers/ricciardo.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/russell.png",
+      "PackagePath": "staticwebassets/images/drivers/russell.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/sainz.png",
+      "PackagePath": "staticwebassets/images/drivers/sainz.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/sargeant.png",
+      "PackagePath": "staticwebassets/images/drivers/sargeant.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/stroll.png",
+      "PackagePath": "staticwebassets/images/drivers/stroll.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/tsunoda.png",
+      "PackagePath": "staticwebassets/images/drivers/tsunoda.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/verstappen.png",
+      "PackagePath": "staticwebassets/images/drivers/verstappen.png"
+    },
+    {
+      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/drivers/williams.png",
+      "PackagePath": "staticwebassets/images/drivers/williams.png"
     },
     {
       "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/ferrari.png",
       "PackagePath": "staticwebassets/images/ferrari.png"
     },
     {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/gasly.png",
-      "PackagePath": "staticwebassets/images/gasly.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/guanyu.png",
-      "PackagePath": "staticwebassets/images/guanyu.png"
-    },
-    {
       "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/haas.png",
       "PackagePath": "staticwebassets/images/haas.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/hamilton.png",
-      "PackagePath": "staticwebassets/images/hamilton.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/hulkenberg.png",
-      "PackagePath": "staticwebassets/images/hulkenberg.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/lawson.png",
-      "PackagePath": "staticwebassets/images/lawson.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/leclerc.png",
-      "PackagePath": "staticwebassets/images/leclerc.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/magnussen.png",
-      "PackagePath": "staticwebassets/images/magnussen.png"
     },
     {
       "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/mclaren.png",
@@ -77,56 +177,8 @@
       "PackagePath": "staticwebassets/images/mercedes.png"
     },
     {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/norris.png",
-      "PackagePath": "staticwebassets/images/norris.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/ocon.png",
-      "PackagePath": "staticwebassets/images/ocon.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/perez.png",
-      "PackagePath": "staticwebassets/images/perez.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/piastri.png",
-      "PackagePath": "staticwebassets/images/piastri.png"
-    },
-    {
       "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/redbull.png",
       "PackagePath": "staticwebassets/images/redbull.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/ricciardo.png",
-      "PackagePath": "staticwebassets/images/ricciardo.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/russell.png",
-      "PackagePath": "staticwebassets/images/russell.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/sainz.png",
-      "PackagePath": "staticwebassets/images/sainz.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/sargeant.png",
-      "PackagePath": "staticwebassets/images/sargeant.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/stroll.png",
-      "PackagePath": "staticwebassets/images/stroll.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/tsunoda.png",
-      "PackagePath": "staticwebassets/images/tsunoda.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/verstappen.png",
-      "PackagePath": "staticwebassets/images/verstappen.png"
-    },
-    {
-      "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/images/williams.png",
-      "PackagePath": "staticwebassets/images/williams.png"
     },
     {
       "Id": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/wwwroot/index.html",
