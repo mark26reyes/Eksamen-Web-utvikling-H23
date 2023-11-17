@@ -26,11 +26,11 @@ const DriversList = () => {
         <h1>Drivers</h1>
         <SearchDriver />
       </div>
+      <br />
+      <div className="row">
         {getDriversJSX().map((driver, index) => (
-          <div key={index} className="col-lg-4 col-md-6 col-sm-12 mb-4">
-            <div
-              className="card shadow-sm bg-body-tertiary rounded ;"
-            >
+          <div key={index} className="col-lg-4 col-md-6 col-sm-4 mb-4">
+            <div className="card shadow-sm bg-body-tertiary rounded ;">
               <div className="card-body no-overflow">{driver}</div>
             </div>
           </div>
