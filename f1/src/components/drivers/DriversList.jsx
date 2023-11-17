@@ -22,9 +22,10 @@ const DriversList = () => {
   };
   return (
     <div className="container">
-      <h1>Drivers</h1> <SearchDriver />
-      <br />
-      <div className="row">
+      <div className="header-flex">
+        <h1>Drivers</h1>
+        <SearchDriver />
+      </div>
         {getDriversJSX().map((driver, index) => (
           <div key={index} className="col-lg-4 col-md-6 col-sm-12 mb-4">
             <div
