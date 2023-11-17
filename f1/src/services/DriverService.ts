@@ -9,31 +9,59 @@ const DriverService = (() => {
     return baseURL;
   };
 
-  const getAllDrivers = async (): Promise<IDriver[]> => {
+  const getAllDrivers = async (): Promise<IDriver[] | null> => {
     try {
       const result = await axios.get(driverController);
       return result.data;
     } catch (err) {
-      console.log("Ikke kontakt med driverController");
-      return [];
+      console.error("Could not fetch drivers:", err);
+      return null;
     }
   };
 
-  // Define the types for the parameters and return type for these functions
-  const putDriver = async (): Promise<void> => {
-    // Implementation
+  const getDriverById = async (id: number): Promise<IDriver | null> => {
+    try {
+      const result = await axios.get(`${driverController}/${id}`);
+      return result.data;
+    } catch (err) {
+      console.error(`Could not fetch driver with ID ${id}:`, err);
+      return null;
+    }
   };
 
-  const postDriver = async (): Promise<void> => {
-    // Implementation
+  const putDriver = async (
+    id: number,
+    updatedDriver: IDriver
+  ): Promise<void> => {
+    try {
+      await axios.put(`${driverController}/${id}`, updatedDriver);
+    } catch (err) {
+      console.error(`Error updating driver with ID ${id}:`, err);
+      throw err; // Rethrow the error for the calling code to handle
+    }
   };
 
-  const deleteDriver = async (): Promise<void> => {
-    // Implementation
+  const postDriver = async (newDriver: IDriver): Promise<void> => {
+    try {
+      await axios.post(driverController, newDriver);
+    } catch (err) {
+      console.error("Error creating a new driver:", err);
+      throw err; // Rethrow the error for the calling code to handle
+    }
+  };
+
+  const deleteDriver = async (id: number): Promise<void> => {
+    try {
+      await axios.delete(`${driverController}/${id}`);
+    } catch (err) {
+      console.error(`Error deleting driver with ID ${id}:`, err);
+      throw err; // Rethrow the error for the calling code to handle
+    }
   };
 
   return {
     getAllDrivers,
+    getDriverById,
     putDriver,
     postDriver,
     deleteDriver,

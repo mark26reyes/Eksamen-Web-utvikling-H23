@@ -1,19 +1,31 @@
 import React, { useState } from "react";
 import DriverService from "../../services/DriverService";
 
-function AddDrivers() {
+function AddDriver() {
   const [driverName, setDriverName] = useState("");
+  const [driverAge, setDriverAge] = useState("");
+  const [driverNationality, setDriverNationality] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle the form submission logic here
-    console.log("New Driver Added:", driverName);
+
+    const newDriver = {
+      name: driverName,
+      age: driverAge,
+      nationality: driverNationality,
+    };
+
+    await DriverService.postDriver(newDriver);
+
+    // Clear form fields after submission
     setDriverName("");
+    setDriverAge(0);
+    setDriverNationality("");
   };
 
   return (
     <section>
-      <h2>Register as new driver</h2>
+      <h2>Register as a new driver</h2>
       <form onSubmit={handleSubmit}>
         <label>
           Name:
@@ -26,15 +38,36 @@ function AddDrivers() {
         <br />
         <br />
         <label>
-          Team:
-          <input type="text" name="" id="" />
+          Age:
+          <input
+            type="text"
+            value={driverAge}
+            onChange={(e) => setDriverAge(Number(e.target.value))}
+          />
         </label>
         <br />
         <br />
-        <button type="submit">Add Driver</button>
+        <label>
+          Nationality:
+          <input
+            type="text"
+            value={driverNationality}
+            onChange={(e) => setDriverNationality(e.target.value)}
+          />
+        </label>
+        <br />
+        <br />
+        <label>Upload image</label>
+        <br />
+        <input type="file" />
+        <br />
+        <br />
+        <button type="submit" className="rounded border-dark shadow">
+          Add Driver
+        </button>
       </form>
     </section>
   );
 }
 
-export default AddDrivers;
+export default AddDriver;
