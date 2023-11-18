@@ -33,7 +33,7 @@ public IActionResult PostImage(IFormFile formFile)
     try
     {
         string webRootPath = environment.ContentRootPath; // Henter filsti
-        string absolutePath = Path.Combine(webRootPath, "wwwroot", "images", formFile.FileName);
+        string absolutePath = Path.Combine(webRootPath, "wwwroot", "images", "drivers", formFile.FileName);
 
         using (var fileStream = new FileStream(absolutePath, FileMode.Create))
         {

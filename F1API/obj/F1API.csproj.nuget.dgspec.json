@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/F1API.csproj": {}
+    "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\F1API.csproj": {}
   },
   "projects": {
-    "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/F1API.csproj": {
+    "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\F1API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/F1API.csproj",
+        "projectUniqueName": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\F1API.csproj",
         "projectName": "F1API",
-        "projectPath": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/F1API.csproj",
-        "packagesPath": "/Users/mark/.nuget/packages/",
-        "outputPath": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/obj/",
+        "projectPath": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\F1API.csproj",
+        "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mark/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\damia\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

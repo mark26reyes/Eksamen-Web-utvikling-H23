@@ -103,8 +103,27 @@ public class DriversController : ControllerBase
         }
     }
 
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> Delete(int id)
+    {
+        var driver = await context.Drivers.FindAsync(id);
+        if (driver == null)
+        {
+            return NotFound($"Driver with ID {id} not found.");
+        }
 
-    
+        try
+        {
+            context.Drivers.Remove(driver);
+            await context.SaveChangesAsync();
+            return Ok($"Driver with ID {id} has been deleted.");
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, "Internal Server Error: " + ex.Message);
+        }
+    }
+        
 
 
   [HttpPut]

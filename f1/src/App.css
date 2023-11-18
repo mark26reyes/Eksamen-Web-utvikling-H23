@@ -25,3 +25,9 @@ nav {
   justify-content: space-between;
   width: 100%;
 }
+
+/* In your CSS file */
+.driver-image {
+  width: 412px;
+  height: 412px;
+}

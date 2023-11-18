@@ -6,7 +6,11 @@ const DriversItem = ({ name, age, nationality, image }) => {
       <h3 className="f1-bold-font">{name}</h3>
       <p> Age: {age}</p>
       <p>Nationality: {nationality}</p>
-      <img src={`http://localhost:5008/${image}`} alt="Picture of drivers" />
+      <img
+        src={`http://localhost:5008/${image}`}
+        style={{ width: "412px", height: "412px" }}
+        alt="Picture of drivers"
+      />
     </section>
   );
 };

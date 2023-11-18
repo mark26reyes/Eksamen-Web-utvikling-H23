@@ -4,6 +4,7 @@ import { IDriver } from "../interfaces/IDriver";
 const DriverService = (() => {
   const baseURL: string = "http://localhost:5008";
   const driverController: string = `${baseURL}/api/drivers`;
+  const imageUploadController = `${baseURL}/api/imageUpload`;
 
   const getBaseUrl = (): string => {
     return baseURL;
@@ -41,12 +42,32 @@ const DriverService = (() => {
     }
   };
 
-  const postDriver = async (newDriver: IDriver): Promise<void> => {
+  const postDriver = async (newDriver: IDriver, image: File): Promise<void> => {
     try {
-      await axios.post(driverController, newDriver);
-    } catch (err) {
-      console.error("Error creating a new driver:", err);
-      throw err; // Rethrow the error for the calling code to handle
+      const result = await axios.post(driverController, newDriver);
+      console.log("Driver posted successfully:", result.data);
+
+      // Renaming the image file
+      const newImageName = `${newDriver.name.replace(/\s+/g, "_")}.png`;
+      const newImageFile = new File([image], newImageName, {
+        type: image.type,
+      });
+
+      const formData = new FormData();
+      formData.append("formFile", newImageFile);
+
+      const uploadResult = await axios({
+        url: imageUploadController,
+        method: "POST",
+        data: formData,
+        headers: { "Content-Type": "multipart/form-data" },
+      });
+      console.log("Image uploaded successfully:", uploadResult.data);
+
+      formData.delete("formFile");
+    } catch (error) {
+      console.error("Error in postDriver:", error);
+      throw error;
     }
   };
 

@@ -5,21 +5,41 @@ function AddDriver() {
   const [driverName, setDriverName] = useState("");
   const [driverAge, setDriverAge] = useState("");
   const [driverNationality, setDriverNationality] = useState("");
+  const [image, setImage] = useState(null);
+
+  const handleChange = (e) => {
+    switch (e.currentTarget.name) {
+      case "name":
+        setDriverName(e.currentTarget.value);
+        break;
+      case "age":
+        setDriverAge(e.currentTarget.value);
+        break;
+      case "nationality":
+        setDriverNationality(e.currentTarget.value);
+        break;
+      case "image":
+        setImage(e.currentTarget.files[0]);
+        break;
+    }
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Assuming the base URL and image path are known
+    const imageUrl = `/images/drivers/${driverName}.png`;
 
     const newDriver = {
       name: driverName,
       age: driverAge,
       nationality: driverNationality,
+      image: imageUrl, // Add the image URL here
     };
 
-    await DriverService.postDriver(newDriver);
-
-    // Clear form fields after submission
+    await DriverService.postDriver(newDriver, image);
     setDriverName("");
-    setDriverAge(0);
+    setDriverAge("");
     setDriverNationality("");
   };
 
@@ -28,43 +48,44 @@ function AddDriver() {
       <h2>Register as a new driver</h2>
       <form onSubmit={handleSubmit}>
         <label>
-          Name:
+          Name:{" "}
           <input
+            name="name"
+            onChange={handleChange}
             type="text"
             value={driverName}
-            onChange={(e) => setDriverName(e.target.value)}
           />
         </label>
         <br />
         <br />
         <label>
-          Age:
+          Age:{" "}
           <input
+            name="age"
+            onChange={handleChange}
             type="text"
             value={driverAge}
-            onChange={(e) => setDriverAge(Number(e.target.value))}
           />
         </label>
         <br />
         <br />
         <label>
-          Nationality:
+          Nationality:{" "}
           <input
+            name="nationality"
+            onChange={handleChange}
             type="text"
             value={driverNationality}
-            onChange={(e) => setDriverNationality(e.target.value)}
           />
         </label>
         <br />
         <br />
-        <label>Upload image</label>
+        <label>
+          Bilde: <input name="image" onChange={handleChange} type="file" />
+        </label>
         <br />
-        <input type="file" />
         <br />
-        <br />
-        <button type="submit" className="rounded border-dark shadow">
-          Add Driver
-        </button>
+        <button type="submit">Add Driver</button>
       </form>
     </section>
   );
