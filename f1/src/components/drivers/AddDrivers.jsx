@@ -85,7 +85,9 @@ function AddDriver() {
         </label>
         <br />
         <br />
-        <button type="submit">Add Driver</button>
+        <button className="border-dark rounded" type="submit">
+          Add Driver
+        </button>
       </form>
     </section>
   );
