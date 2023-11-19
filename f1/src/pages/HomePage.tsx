@@ -1,5 +1,5 @@
 // HomePage.tsx
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import AddDrivers from "../components/drivers/AddDrivers";
 import DeleteDriver from "../components/drivers/DeleteDriver";
 import EditDriver from "../components/drivers/EditDriver";
@@ -18,7 +18,7 @@ const HomePage = () => {
     const fetchDrivers = async () => {
       try {
         const allDrivers = await DriverService.getAllDrivers();
-        setDrivers(allDrivers);
+        setDrivers(allDrivers || []);
       } catch (error) {
         console.error("Error fetching drivers:", error);
       }
