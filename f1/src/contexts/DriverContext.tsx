@@ -1,9 +1,4 @@
-import React, {
-  createContext,
-  useState,
-  useEffect,
-  ReactNode,
-} from "react";
+import React, { createContext, useState, useEffect, ReactNode } from "react";
 import { IDriver } from "../interfaces/IDriver";
 import DriverService from "../services/DriverService";
 
@@ -34,7 +29,7 @@ export const DriverProvider: React.FC<DriverProviderProps> = ({ children }) => {
 
   const getDriversFromService = async () => {
     const driversFromService = await DriverService.getAllDrivers();
-    setDrivers(driversFromService);
+    setDrivers(driversFromService!);
   };
 
   const searchDriverByName = (name: string) => {

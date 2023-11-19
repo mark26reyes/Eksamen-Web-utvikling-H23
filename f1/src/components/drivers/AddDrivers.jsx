@@ -81,7 +81,7 @@ function AddDriver() {
         <br />
         <br />
         <label>
-          Bilde: <input name="image" onChange={handleChange} type="file" />
+          Image: <input name="image" onChange={handleChange} type="file" />
         </label>
         <br />
         <br />
