@@ -33,7 +33,7 @@ const HomePage = () => {
         src="/public/f1-homepage-img.jpg"
         width={"100%"}
         alt="Bilde av redbull bil"
-        className="mt-5"
+        className="img-fluid mt-5 mx-auto d-block"
       />
       <div className="container">
         <section className="mt-5">
