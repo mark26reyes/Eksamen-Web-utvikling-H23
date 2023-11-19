@@ -13,7 +13,13 @@ function App() {
       <Router>
         <header>
           <nav className="navbar navbar-expand navbar-dark p-3 fixed-top">
-            <img src="/public/formula1-logo-hvit.png" width={"80rem"} alt="" />
+            <a href="/">
+              <img
+                src="/public/formula1-logo-hvit.png"
+                width={"80rem"}
+                alt="logo"
+              />
+            </a>
             <div className="navbar-collapse justify-content-end">
               <ul className="navbar-nav">
                 <li>
