@@ -125,26 +125,7 @@ public class DriversController : ControllerBase
     }
         
 
-
-  [HttpPut]
-    public async Task<IActionResult> Put(Driver updatedDriver)
-    {
-        try
-        {
-            context.Entry(updatedDriver).State = EntityState.Modified;
-            
-            await context.SaveChangesAsync();
-
-            return NoContent();
-        }
-        catch
-        {
-            return StatusCode(500);
-        }
-    }
-
-    /*
-    Http Put with if/else 
+   [HttpPut("{id}")]
     public async Task<IActionResult> Put(int id, Driver updatedDriver)
 {
     if (id != updatedDriver.Id)
@@ -172,5 +153,4 @@ public class DriversController : ControllerBase
         return StatusCode(500, "Internal Server Error: " + ex.Message);
     }
 }
-*/
 }
