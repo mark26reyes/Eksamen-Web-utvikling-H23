@@ -37,11 +37,14 @@ const HomePage = () => {
       />
       <div className="container">
         <section className="mt-5">
-          <h1>Welcome to the F1 Event</h1>
+          <h1 className="border-bottom border-dark p-4">
+            Welcome to the F1 Event
+          </h1>
           <br />
           <AddDrivers />
           <br />
           <label>
+            <br />
             Select a Driver:
             <select
               value={selectedDriverId?.toString() || ""}

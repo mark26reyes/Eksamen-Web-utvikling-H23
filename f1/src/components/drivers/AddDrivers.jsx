@@ -45,10 +45,10 @@ function AddDriver() {
   };
 
   return (
-    <section>
+    <section className="border-bottom border-dark pb-5 w-50">
       <h2>Register as a new driver</h2>
       <form onSubmit={handleSubmit}>
-        <label>
+        <label className="d-flex flex-column">
           Name:{" "}
           <input
             name="name"
@@ -59,7 +59,7 @@ function AddDriver() {
         </label>
         <br />
         <br />
-        <label>
+        <label className="d-flex flex-column">
           Age:{" "}
           <input
             name="age"
@@ -70,7 +70,7 @@ function AddDriver() {
         </label>
         <br />
         <br />
-        <label>
+        <label className="d-flex flex-column">
           Nationality:{" "}
           <input
             name="nationality"
@@ -81,7 +81,7 @@ function AddDriver() {
         </label>
         <br />
         <br />
-        <label>
+        <label className="d-flex flex-column">
           Image: <input name="image" onChange={handleChange} type="file" />
         </label>
         <br />

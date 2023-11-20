@@ -68,7 +68,7 @@ function EditDriver({ driverId }) {
   }
 
   return (
-    <section>
+    <section className="border-bottom border-dark pb-5 w-50">
       <h2>Edit Driver</h2>
       {driver && (
         <>
@@ -84,7 +84,7 @@ function EditDriver({ driverId }) {
             Current Driver Nationality:
             {driver.nationality || "N/A"}
           </p>
-          <label>
+          <label className="d-flex flex-column">
             Updated Name:
             <input
               type="text"
@@ -94,7 +94,7 @@ function EditDriver({ driverId }) {
           </label>
           <br />
           <br />
-          <label>
+          <label className="d-flex flex-column">
             Updated Age:
             <input
               type="text"
@@ -104,7 +104,7 @@ function EditDriver({ driverId }) {
           </label>
           <br />
           <br />
-          <label>
+          <label className="d-flex flex-column">
             Updated Nationality:
             <input
               type="text"
@@ -114,7 +114,7 @@ function EditDriver({ driverId }) {
           </label>
           <br />
           <br />
-          <label>
+          <label className="d-flex flex-column">
             Updated Image:{" "}
             <input name="image" onChange={handleChange} type="file" />
           </label>
