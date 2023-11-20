@@ -1,12 +1,15 @@
 import RacesItem from "./RacesItem";
 import RacesContext from "../../contexts/RacesContext";
-import { useContext, useEffect } from "react";
-import RacesService from "../../services/RacesService";
+import { useContext } from "react";
+import SearchRace from "./SearchRaces";
+
 const RacesList = () => {
-  const { races } = useContext(RacesContext);
+  // Use filteredRaces instead of races
+  const { filteredRaces } = useContext(RacesContext);
 
   const getRacesJSX = () => {
-    const racesJSX = races.map((_races, i) => (
+    // Map over filteredRaces to create JSX elements
+    const racesJSX = filteredRaces.map((_races, i) => (
       <RacesItem
         key={i}
         winnerName={_races.winnerName}
@@ -17,14 +20,20 @@ const RacesList = () => {
     ));
     return racesJSX;
   };
+
   return (
     <div className="container">
-      <h1>Races</h1>
+      <div className="header-flex">
+        <h1>Races</h1>
+        <SearchRace />
+      </div>
+
+      <br />
       <div className="row">
-        {getRacesJSX().map((races, index) => (
+        {getRacesJSX().map((race, index) => (
           <div key={index} className="col-lg-12 mb-4">
             <div className="card shadow-sm bg-body-tertiary rounded">
-              <div className="card-body">{races}</div>
+              <div className="card-body">{race}</div>
             </div>
           </div>
         ))}

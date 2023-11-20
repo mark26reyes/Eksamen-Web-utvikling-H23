@@ -6,7 +6,6 @@ const SearchDriver = () => {
 
   return (
     <div>
-      <p>Søk etter førere: </p>
       <input
         type="text"
         placeholder="Search drivers..."
