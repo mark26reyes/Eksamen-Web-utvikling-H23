@@ -36,12 +36,18 @@ const HomePage = () => {
         className="img-fluid mt-5 mx-auto d-block"
       />
       <div className="container">
-        <section className="mt-5">
-          <h1 className="border-bottom border-dark p-4">
+        <section className="row mt-5">
+          <h1 className="border-bottom border-dark p-4 mb-4">
             Welcome to the F1 Event
           </h1>
           <br />
           <AddDrivers />
+          <img
+            className="border-bottom border-dark col-lg-6 pt-5 pb-5 img-fluid"
+            height={"450rem"}
+            src="/public/max.jpg"
+            alt=""
+          />
           <br />
           <label>
             <br />
