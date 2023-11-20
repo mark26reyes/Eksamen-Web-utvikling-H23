@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const questions = [
   {
-    questionText: "Who won the F1 World Championship in 2020?",
+    questionText: "Who won the Bahrain Grand Prix in 2023?",
     answerOptions: [
       { answerText: "Lewis Hamilton", isCorrect: true },
       { answerText: "Max Verstappen", isCorrect: false },

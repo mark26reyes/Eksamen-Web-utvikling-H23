@@ -41,6 +41,7 @@ function AddDriver() {
     setDriverName("");
     setDriverAge("");
     setDriverNationality("");
+    window.location.href = "/drivers";
   };
 
   return (

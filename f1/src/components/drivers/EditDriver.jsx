@@ -39,6 +39,7 @@ function EditDriver({ driverId }) {
           image: updatedDriverImage,
         };
         await DriverService.putDriver(driver.id, updatedDriver);
+        window.location.href = "/drivers";
       } else {
         console.error("Driver or driver ID is invalid.");
       }
