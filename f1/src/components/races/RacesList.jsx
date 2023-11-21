@@ -23,13 +23,13 @@ const RacesList = () => {
 
   return (
     <div className="container">
-      <div className="header-flex">
+      <div className="header-flex border-bottom border-dark pb-3">
         <h1>Races</h1>
         <SearchRace />
       </div>
 
       <br />
-      <div className="row">
+      <section className="row">
         {getRacesJSX().map((race, index) => (
           <div key={index} className="col-lg-12 mb-4">
             <div className="card shadow-sm bg-body-tertiary rounded">
@@ -37,7 +37,7 @@ const RacesList = () => {
             </div>
           </div>
         ))}
-      </div>
+      </section>
     </div>
   );
 };
