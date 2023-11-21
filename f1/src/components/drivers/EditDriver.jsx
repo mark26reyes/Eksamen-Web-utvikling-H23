@@ -114,19 +114,6 @@ function EditDriver({ driverId }) {
           </label>
           <br />
           <br />
-          <label className="d-flex flex-column">
-            Updated Image:{" "}
-            <input name="image" onChange={handleChange} type="file" />
-          </label>
-          {imagePreview && (
-            <img
-              src={imagePreview}
-              alt="Preview"
-              style={{ width: "100px", height: "100px" }}
-            />
-          )}
-          <br />
-          <br />
           <button onClick={handleUpdate} className="rounded border-dark shadow">
             Update Driver
           </button>
