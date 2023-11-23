@@ -27,8 +27,10 @@ const TeamsList = () => {
       <section className="row pt-4">
         {getTeamsJSX().map((teams, index) => (
           <div key={index} className="col-md-6 mb-4">
-            <div className="card shadow-sm bg-body-tertiary rounded">
-              <div className="card-body">{teams}</div>
+            <div>
+              <div className="card-body border-top border-end border-dark border-2 no-overflow p-3">
+                {teams}
+              </div>
             </div>
           </div>
         ))}
