@@ -12,7 +12,9 @@ const QuizPage = () => {
       <section className="container">
         <br />
         <br />
-        <h1 className="border-bottom border-dark pb-4 fw-bold">Quiz</h1>
+        <h3 className="border-bottom border-dark pb-4 f1-black-font fs-1">
+          F1 Quiz
+        </h3>
         <Quiz />
       </section>
     </>

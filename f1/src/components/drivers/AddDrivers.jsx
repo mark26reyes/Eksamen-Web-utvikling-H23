@@ -46,7 +46,7 @@ function AddDriver() {
 
   return (
     <section className="border-bottom border-dark pb-5 w-50">
-      <h2>Register as a new driver</h2>
+      <h3 className="pb-4">Register as a new driver</h3>
       <form onSubmit={handleSubmit}>
         <label className="d-flex flex-column w-50">
           Name:{" "}
@@ -59,7 +59,7 @@ function AddDriver() {
           />
         </label>
         <br />
-        <br />
+
         <label className="d-flex flex-column w-50">
           Age:{" "}
           <input
@@ -71,7 +71,7 @@ function AddDriver() {
           />
         </label>
         <br />
-        <br />
+
         <label className="d-flex flex-column w-50">
           Nationality:{" "}
           <input
@@ -82,7 +82,6 @@ function AddDriver() {
             placeholder="Enter nationality..."
           />
         </label>
-        <br />
         <br />
         <label className="d-flex flex-column">
           Image:

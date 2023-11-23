@@ -1,13 +1,15 @@
-import RacesService from "../../services/RacesService";
+// RacesItem.js
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
 
 const RacesItem = ({ winnerName, winnerTime, grandPrix, numberOfLaps }) => {
   return (
-    <section>
-      <h3>{grandPrix}</h3>
-      <p>Winner Name: {winnerName}</p>
-      <p>Winner Time: {winnerTime}</p>
-      <p>Number of Laps: {numberOfLaps}</p>
-    </section>
+    <tr className="table-row">
+      <td>{grandPrix}</td>
+      <td>{winnerName}</td>
+      <td>{winnerTime}</td>
+      <td>{numberOfLaps}</td>
+    </tr>
   );
 };
 
