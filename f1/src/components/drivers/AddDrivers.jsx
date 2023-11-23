@@ -89,7 +89,6 @@ function AddDriver() {
           PS: The image need to be saved as a PNG file.
         </label>
         <br />
-        <br />
         <button className="btn bg-dark text-light rounded" type="submit">
           Add driver
         </button>

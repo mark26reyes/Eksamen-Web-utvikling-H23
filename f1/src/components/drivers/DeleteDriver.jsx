@@ -40,7 +40,11 @@ function DeleteDriver({ driverId }) {
     <section className="w-50">
       <h2>Delete Driver</h2>
       <p>Are you sure you want to delete the driver: {driver.name || "N/A"}?</p>
-      <button onClick={handleDelete} className="rounded border-dark shadow">
+      <button
+        onClick={handleDelete}
+        className="btn bg-dark text-light rounded"
+        type="submit"
+      >
         Yes, Delete Driver
       </button>
     </section>

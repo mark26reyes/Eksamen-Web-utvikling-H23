@@ -29,7 +29,7 @@ const DriversList = () => {
       <br />
       <section className="row">
         {getDriversJSX().map((driver, index) => (
-          <div key={index} className="col-lg-4 col-md-6 col-sm-4 mb-4">
+          <div key={index} className="col-lg-4 col-md-6 col-sm-12 mb-4">
             <div>
               <div className="card-border card-body border-top border-end border-dark border-2 no-overflow p-3">
                 {driver}

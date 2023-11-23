@@ -72,19 +72,10 @@ function EditDriver({ driverId }) {
       <h2>Edit Driver</h2>
       {driver && (
         <>
-          <p>
-            Current Driver Name:
-            {driver.name || "N/A"}
-          </p>
-          <p>
-            Current Driver Age:
-            {driver.age || "N/A"}
-          </p>
-          <p>
-            Current Driver Nationality:
-            {driver.nationality || "N/A"}
-          </p>
-          <label className="d-flex flex-column">
+          <p>Name: {driver.name || "N/A"}</p>
+          <p>Age: {driver.age || "N/A"}</p>
+          <p>Nationality: {driver.nationality || "N/A"}</p>
+          <label className="d-flex flex-column w-50">
             Updated Name:
             <input
               type="text"
@@ -93,8 +84,8 @@ function EditDriver({ driverId }) {
             />
           </label>
           <br />
-          <br />
-          <label className="d-flex flex-column">
+
+          <label className="d-flex flex-column w-50">
             Updated Age:
             <input
               type="text"
@@ -103,8 +94,8 @@ function EditDriver({ driverId }) {
             />
           </label>
           <br />
-          <br />
-          <label className="d-flex flex-column">
+
+          <label className="d-flex flex-column w-50">
             Updated Nationality:
             <input
               type="text"
@@ -113,8 +104,12 @@ function EditDriver({ driverId }) {
             />
           </label>
           <br />
-          <br />
-          <button onClick={handleUpdate} className="rounded border-dark shadow">
+
+          <button
+            onClick={handleUpdate}
+            className="btn bg-dark text-light rounded"
+            type="submit"
+          >
             Update Driver
           </button>
         </>
