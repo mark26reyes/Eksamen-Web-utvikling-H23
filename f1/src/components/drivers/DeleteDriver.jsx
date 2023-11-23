@@ -45,7 +45,7 @@ function DeleteDriver({ driverId }) {
         className="btn bg-dark text-light rounded"
         type="submit"
       >
-        Yes, Delete Driver
+        Yes, delete driver
       </button>
     </section>
   );

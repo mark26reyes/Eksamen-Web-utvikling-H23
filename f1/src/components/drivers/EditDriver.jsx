@@ -110,7 +110,7 @@ function EditDriver({ driverId }) {
             className="btn bg-dark text-light rounded"
             type="submit"
           >
-            Update Driver
+            Update driver
           </button>
         </>
       )}
