@@ -48,46 +48,50 @@ function AddDriver() {
     <section className="border-bottom border-dark pb-5 w-50">
       <h2>Register as a new driver</h2>
       <form onSubmit={handleSubmit}>
-        <label className="d-flex flex-column">
+        <label className="d-flex flex-column w-50">
           Name:{" "}
           <input
             name="name"
             onChange={handleChange}
             type="text"
             value={driverName}
+            placeholder="Enter name..."
           />
         </label>
         <br />
         <br />
-        <label className="d-flex flex-column">
+        <label className="d-flex flex-column w-50">
           Age:{" "}
           <input
             name="age"
             onChange={handleChange}
             type="text"
             value={driverAge}
+            placeholder="Enter age..."
           />
         </label>
         <br />
         <br />
-        <label className="d-flex flex-column">
+        <label className="d-flex flex-column w-50">
           Nationality:{" "}
           <input
             name="nationality"
             onChange={handleChange}
             type="text"
             value={driverNationality}
+            placeholder="Enter nationality..."
           />
         </label>
         <br />
         <br />
         <label className="d-flex flex-column">
-          Image: <input name="image" onChange={handleChange} type="file" />
+          Image:
+          <input name="image" onChange={handleChange} type="file" />
         </label>
         <br />
         <br />
-        <button className="border-dark rounded" type="submit">
-          Add Driver
+        <button className="btn bg-dark text-light rounded" type="submit">
+          Add driver
         </button>
       </form>
     </section>

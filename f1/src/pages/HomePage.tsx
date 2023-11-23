@@ -51,7 +51,7 @@ const HomePage = () => {
           <br />
           <label>
             <br />
-            Select a Driver:
+            Select a Driver: <br />
             <select
               value={selectedDriverId?.toString() || ""}
               onChange={(e) => setSelectedDriverId(Number(e.target.value))}
