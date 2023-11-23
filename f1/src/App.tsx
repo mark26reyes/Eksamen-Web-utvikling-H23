@@ -16,7 +16,7 @@ function App() {
             <a href="/">
               <img
                 src="/public/formula1-logo-hvit.png"
-                width={"80rem"}
+                width={"150rem"}
                 alt="logo"
               />
             </a>
