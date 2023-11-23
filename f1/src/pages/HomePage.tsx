@@ -37,7 +37,7 @@ const HomePage = () => {
       />
       <div className="container">
         <section className="row mt-5">
-          <h1 className="border-bottom border-dark p-4 mb-4">
+          <h1 className="border-bottom border-dark p-4 mb-4 fw-bold">
             Welcome to the F1 Event
           </h1>
           <br />

@@ -6,8 +6,8 @@ const TeamsItem = ({ manufacturer, image, driverName, driverName2 }) => {
     <section>
       <h3>{manufacturer}</h3>
       <img src={`${baseURL}/${image}`} width={"400px"} alt="Bilde av teams" />
-      <p>{driverName}</p>
-      <p>{driverName2}</p>
+      <p>D1: {driverName}</p>
+      <p>D2: {driverName2}</p>
     </section>
   );
 };

@@ -22,7 +22,7 @@ const TeamsList = () => {
   return (
     <div className="container">
       <div className="border-bottom border-dark pb-3">
-        <h1>Teams</h1>
+        <h1 className="fw-bold">Teams</h1>
       </div>
       <section className="row pt-4">
         {getTeamsJSX().map((teams, index) => (

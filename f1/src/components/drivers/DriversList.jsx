@@ -23,7 +23,7 @@ const DriversList = () => {
   return (
     <div className="container">
       <div className="header-flex border-bottom border-dark pb-3">
-        <h1>Drivers</h1>
+        <h1 className="fw-bold">Drivers</h1>
         <SearchDriver />
       </div>
       <br />
