@@ -103,26 +103,35 @@ public class DriversController : ControllerBase
         }
     }
 
-    [HttpDelete("{id}")]
-    public async Task<IActionResult> Delete(int id)
+  [HttpDelete("{id}")]
+public async Task<IActionResult> Delete(int id)
+{
+    var driver = await context.Drivers.FindAsync(id);
+    if (driver == null)
     {
-        var driver = await context.Drivers.FindAsync(id);
-        if (driver == null)
+        return NotFound($"Driver with ID {id} not found.");
+    }
+
+    try
+    {
+        // Anta at driver.ImagePath inneholder stien til bildet
+        var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", driver.ImagePath);
+        if (System.IO.File.Exists(imagePath))
         {
-            return NotFound($"Driver with ID {id} not found.");
+            System.IO.File.Delete(imagePath);
         }
 
-        try
-        {
-            context.Drivers.Remove(driver);
-            await context.SaveChangesAsync();
-            return Ok($"Driver with ID {id} has been deleted.");
-        }
-        catch (Exception ex)
-        {
-            return StatusCode(500, "Internal Server Error: " + ex.Message);
-        }
+        context.Drivers.Remove(driver);
+        await context.SaveChangesAsync();
+        return Ok($"Driver with ID {id} and associated image have been deleted.");
     }
+
+    catch (Exception ex)
+    {
+        return StatusCode(500, "Internal Server Error: " + ex.Message);
+    }
+}
+
         
 
    [HttpPut("{id}")]
