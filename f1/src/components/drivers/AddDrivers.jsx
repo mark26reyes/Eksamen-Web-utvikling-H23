@@ -86,6 +86,7 @@ function AddDriver() {
         <label className="d-flex flex-column">
           Image:
           <input name="image" onChange={handleChange} type="file" />
+          PS: The image need to be saved as a PNG file.
         </label>
         <br />
         <br />

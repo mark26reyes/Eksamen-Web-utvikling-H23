@@ -17,12 +17,13 @@ function DeleteDriver({ driverId }) {
     fetchDriver();
   }, [driverId]);
 
+  // DeleteDriver.js
   const handleDelete = async () => {
     try {
       if (driver && driver.id) {
         await DriverService.deleteDriver(driver.id);
-        // Redirect to another page after deletion
         window.location.href = "/drivers";
+        // Ingen nødvendig omdirigering, React-router håndterer den
       } else {
         console.error("Driver or driver ID is invalid.");
       }

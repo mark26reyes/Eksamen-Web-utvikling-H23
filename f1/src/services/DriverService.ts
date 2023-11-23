@@ -73,10 +73,18 @@ const DriverService = (() => {
 
   const deleteDriver = async (id: number): Promise<void> => {
     try {
+      const driverToDelete = await axios.get(`${driverController}/${id}`);
       await axios.delete(`${driverController}/${id}`);
+
+      // Slett bildet separat hvis det finnes
+      if (driverToDelete.data.imageName) {
+        await axios.delete(
+          `${imageUploadController}/${driverToDelete.data.imageName}`
+        );
+      }
     } catch (err) {
       console.error(`Error deleting driver with ID ${id}:`, err);
-      throw err; // Rethrow the error for the calling code to handle
+      throw err;
     }
   };
 
