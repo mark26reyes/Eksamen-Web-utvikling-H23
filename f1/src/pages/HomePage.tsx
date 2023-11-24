@@ -5,7 +5,6 @@ import DeleteDriver from "../components/drivers/DeleteDriver";
 import EditDriver from "../components/drivers/EditDriver";
 import DriverService from "../services/DriverService";
 
-
 const HomePage = () => {
   interface IDriver {
     id: number;
@@ -47,7 +46,7 @@ const HomePage = () => {
             className="border-bottom border-dark col-lg-6 pt-5 pb-5 img-fluid"
             height={"450rem"}
             src="/public/max.jpg"
-            alt=""
+            alt="Image of Max Verstappen"
           />
           <br />
           <label>
@@ -67,8 +66,12 @@ const HomePage = () => {
               ))}
             </select>
           </label>
+          <img
+            className="col-lg-6 pt-5 pb-5"
+            src="/public/drivers.jpg"
+            alt="Image og all F1 drivers"
+          />
         </section>
-        <br />
         <br />
         {selectedDriverId && <EditDriver driverId={selectedDriverId} />}
         <br />
@@ -82,4 +85,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
