@@ -1,15 +1,18 @@
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import DriversPage from "./pages/DriversPage";
 import TeamsPage from "./pages/TeamsPage";
 import RacesPage from "./pages/RacesPage";
 import QuizPage from "./pages/QuizPage";
+import { QuizProvider } from "./contexts/QuizContext"; // Import QuizProvider
+import { DriverProvider } from "./contexts/DriverContext"; // Import DriverProvider
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
   return (
-    <>
+    <DriverProvider> {/* Omslutt Router og dens barn med DriverProvider */}
       <Router>
         <header>
           <nav className="navbar navbar-expand navbar-dark p-3 fixed-top">
@@ -57,13 +60,20 @@ function App() {
           <Route path="/drivers" element={<DriversPage />} />
           <Route path="/teams" element={<TeamsPage />} />
           <Route path="/races" element={<RacesPage />} />
-          <Route path="/quiz" element={<QuizPage />} />
-          {/* Define other routes */}
+          <Route
+            path="/quiz"
+            element={
+              <QuizProvider>
+                <QuizPage />
+              </QuizProvider>
+            }
+          />
         </Routes>
       </Router>
       <header></header>
-    </>
+    </DriverProvider>
   );
 }
 
 export default App;
+
