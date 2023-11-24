@@ -125,6 +125,18 @@ function Quiz() {
     );
   }
 
+  function shuffleArray(array) {
+    return array.sort(() => Math.random() - 0.5);
+  }
+
+  function randomNationalities(drivers, excludeNationality) {
+    return shuffleArray(
+      drivers
+        .filter((driver) => driver.nationality !== excludeNationality)
+        .map((driver) => driver.nationality)
+    ).slice(0, 3);
+  }
+
   return (
     <div className="quiz">
       <div className="question-section">
@@ -144,18 +156,6 @@ function Quiz() {
       </div>
     </div>
   );
-}
-
-function shuffleArray(array) {
-  return array.sort(() => Math.random() - 0.5);
-}
-
-function randomNationalities(drivers, excludeNationality) {
-  return shuffleArray(
-    drivers
-      .filter((driver) => driver.nationality !== excludeNationality)
-      .map((driver) => driver.nationality)
-  ).slice(0, 3);
 }
 
 export default Quiz;
