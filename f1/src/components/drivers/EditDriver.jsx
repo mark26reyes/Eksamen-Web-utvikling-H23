@@ -8,8 +8,6 @@ function EditDriver({ driverId }) {
   const [updatedDriverName, setUpdatedDriverName] = useState("");
   const [updatedDriverAge, setUpdatedDriverAge] = useState("");
   const [updatedDriverNationality, setUpdatedDriverNationality] = useState("");
-  const [updatedDriverImage, setUpdatedDriverImage] = useState(null);
-  const [imagePreview, setImagePreview] = useState(null);
 
   // Effekt som kjører når komponenten lastes
   useEffect(() => {
@@ -24,7 +22,6 @@ function EditDriver({ driverId }) {
           setUpdatedDriverName(fetchedDriver?.name || "");
           setUpdatedDriverAge(fetchedDriver?.age || "");
           setUpdatedDriverNationality(fetchedDriver?.nationality || "");
-          setUpdatedDriverImage(fetchedDriver?.image || null);
         } catch (error) {
           // Håndterer feil ved henting av sjåførdata
           console.error("Error fetching driver:", error);
@@ -47,7 +44,6 @@ function EditDriver({ driverId }) {
           name: updatedDriverName,
           age: updatedDriverAge,
           nationality: updatedDriverNationality,
-          image: updatedDriverImage,
         };
 
         // Kaller DriverService for å oppdatere sjåføren basert på ID
@@ -62,26 +58,6 @@ function EditDriver({ driverId }) {
     } catch (error) {
       // Håndterer feil ved oppdatering av sjåfør
       console.error("Error updating driver:", error);
-    }
-  };
-
-  // Event handler for endringer i bildet
-  const handleChange = (e) => {
-    const selectedImage = e.target.files[0];
-
-    if (selectedImage) {
-      // Oppdaterer state med det valgte bildet
-      setUpdatedDriverImage(selectedImage);
-
-      // Oppretter en FileReader for å lese bildedata og generere en forhåndsvisning
-      const reader = new FileReader();
-      reader.onloadend = () => {
-        // Oppdaterer state med forhåndsvisningens URL
-        setImagePreview(reader.result);
-      };
-
-      // Leser bildedata som en data-URL
-      reader.readAsDataURL(selectedImage);
     }
   };
 
@@ -131,20 +107,6 @@ function EditDriver({ driverId }) {
             />
           </label>
           <br />
-
-          {/* Input for å velge et nytt bilde */}
-          <label className="d-flex flex-column">
-            Updated Image:
-            <input name="image" onChange={handleChange} type="file" />
-            {/* Viser forhåndsvisning av det valgte bildet */}
-            {imagePreview && (
-              <img
-                src={imagePreview}
-                alt="Image preview"
-                style={{ width: "100px", height: "100px", marginTop: "10px" }}
-              />
-            )}
-          </label>
           <br />
 
           {/* Knapp for å oppdatere sjåførdata */}
