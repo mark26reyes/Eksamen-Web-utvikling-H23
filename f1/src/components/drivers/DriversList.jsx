@@ -26,7 +26,7 @@ const DriversList = () => {
     <div className="container">
       <div className="header-flex border-bottom border-dark pb-3">
         <h3 className="f1-black-font fs-1">F1 Drivers 2023</h3>
-        <SearchDriver /> 
+        <SearchDriver />
       </div>
       <br />
 
@@ -46,4 +46,3 @@ const DriversList = () => {
 };
 
 export default DriversList;
-s;
