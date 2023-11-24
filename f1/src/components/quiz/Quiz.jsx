@@ -1,162 +1,156 @@
-import React, { useState } from "react";
-
-const questions = [
-  {
-    questionText: "Who won the Singapore Grand Prix in 2023?",
-    answerOptions: [
-      { answerText: "Lewis Hamilton", isCorrect: false },
-      { answerText: "Max Verstappen", isCorrect: false },
-      { answerText: "Sebastian Vettel", isCorrect: false },
-      { answerText: "Daniel Ricciardo", isCorrect: true },
-    ],
-  },
-  {
-    questionText: "Which type of tire is considered best for short races?",
-    answerOptions: [
-      { answerText: "Soft", isCorrect: true },
-      { answerText: "Medium", isCorrect: false },
-      { answerText: "Hard", isCorrect: false },
-      { answerText: "Intermediate", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "What is the record for the fastest pitstop in Formula 1?",
-    answerOptions: [
-      { answerText: "1.82 seconds", isCorrect: false },
-      { answerText: "2.31 seconds", isCorrect: false },
-      { answerText: "2.02 seconds", isCorrect: true },
-      { answerText: "2.57 seconds", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Which team did Fernando Alonso drive for before joining Aston Martin?",
-    answerOptions: [
-      { answerText: "Mercedes", isCorrect: false },
-      { answerText: "Ferrari", isCorrect: true },
-      { answerText: "Red Bull Racing", isCorrect: false },
-      { answerText: "McLaren", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Who holds the record for the most Grand Prix wins in a single season?",
-    answerOptions: [
-      { answerText: "Michael Schumacher", isCorrect: false },
-      { answerText: "Lewis Hamilton", isCorrect: true },
-      { answerText: "Ayrton Senna", isCorrect: false },
-      { answerText: "Sebastian Vettel", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "In which year did Formula 1 introduce hybrid power units?",
-    answerOptions: [
-      { answerText: "2005", isCorrect: false },
-      { answerText: "2010", isCorrect: false },
-      { answerText: "2014", isCorrect: true },
-      { answerText: "2000", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Who is known as the 'Flying Finn' in Formula 1?",
-    answerOptions: [
-      { answerText: "Kimi Räikkönen", isCorrect: true },
-      { answerText: "Valtteri Bottas", isCorrect: false },
-      { answerText: "Mika Häkkinen", isCorrect: false },
-      { answerText: "Keke Rosberg", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Which Grand Prix is held at the Circuit de Monaco?",
-    answerOptions: [
-      { answerText: "Monaco Grand Prix", isCorrect: true },
-      { answerText: "Italian Grand Prix", isCorrect: false },
-      { answerText: "British Grand Prix", isCorrect: false },
-      { answerText: "Canadian Grand Prix", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "How many world championships did Juan Manuel Fangio win?",
-    answerOptions: [
-      { answerText: "4", isCorrect: false },
-      { answerText: "5", isCorrect: true },
-      { answerText: "3", isCorrect: false },
-      { answerText: "6", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "Which team is known as the 'Prancing Horse' in Formula 1?",
-    answerOptions: [
-      { answerText: "Red Bull Racing", isCorrect: false },
-      { answerText: "Ferrari", isCorrect: true },
-      { answerText: "Mercedes", isCorrect: false },
-      { answerText: "McLaren", isCorrect: false },
-    ],
-  },
-  {
-    questionText:
-      "Who holds the record for the most pole positions in Formula 1?",
-    answerOptions: [
-      { answerText: "Ayrton Senna", isCorrect: false },
-      { answerText: "Lewis Hamilton", isCorrect: true },
-      { answerText: "Michael Schumacher", isCorrect: false },
-      { answerText: "Sebastian Vettel", isCorrect: false },
-    ],
-  },
-];
+import React, { useEffect, useState } from "react";
+import { useQuiz } from "../../contexts/QuizContext";
+import QuizService from "../../services/QuizService";
 
 function Quiz() {
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [showScore, setShowScore] = useState(false);
-  const [score, setScore] = useState(0);
+  const {
+    currentQuestionIndex,
+    setCurrentQuestionIndex,
+    score,
+    setScore,
+    isQuizFinished,
+    setIsQuizFinished,
+  } = useQuiz();
 
-  const handleAnswerButtonClick = (isCorrect) => {
-    if (isCorrect) {
-      setScore(score + 1);
+  const [questions, setQuestions] = useState([]);
+  const [highScore, setHighScore] = useState(0);
+
+  useEffect(() => {
+    // Load high score from localStorage on component mount
+    const storedHighScore = localStorage.getItem("highScore");
+    if (storedHighScore) {
+      setHighScore(parseInt(storedHighScore));
     }
 
-    const nextQuestion = currentQuestion + 1;
+    const loadQuizData = async () => {
+      const drivers = await QuizService.getAllDrivers();
+      const races = await QuizService.getAllRaces();
+      const teams = await QuizService.getAllTeams();
+      const generatedQuestions = generateQuestions(drivers, races, teams);
+      setQuestions(generatedQuestions);
+    };
+
+    loadQuizData();
+  }, []);
+
+  const generateQuestions = (drivers, races, teams) => {
+    if (!drivers.length || !races.length || !teams.length) {
+      return [];
+    }
+
+    // Questions about race winners
+    const raceQuestions = races.map((race) => {
+      let options = shuffleArray(drivers.map((driver) => driver.name)).slice(
+        0,
+        3
+      );
+      if (!options.includes(race.winnerName)) {
+        options[2] = race.winnerName; // Ensure correct answer is included
+      }
+      return {
+        question: `Who won the ${race.grandPrix}?`,
+        options: shuffleArray([...options, race.winnerName]),
+        answer: race.winnerName,
+      };
+    });
+
+    // Questions about driver nationalities
+    const driverNationalityQuestions = drivers.map((driver) => ({
+      question: `What is the nationality of ${driver.name}?`,
+      options: shuffleArray([
+        driver.nationality,
+        ...randomNationalities(drivers, driver.nationality),
+      ]),
+      answer: driver.nationality,
+    }));
+
+    // Questions about team drivers
+    const teamQuestions = teams.map((team) => {
+      const teamDriverNames = [team.driverName, team.driverName2];
+      const otherDrivers = drivers.filter(
+        (driver) => !teamDriverNames.includes(driver.name)
+      );
+      const randomOtherDrivers = shuffleArray(otherDrivers).slice(0, 2);
+      const options = shuffleArray([
+        ...teamDriverNames,
+        ...randomOtherDrivers.map((driver) => driver.name),
+      ]);
+      return {
+        question: `Which drivers are part of the ${team.manufacturer} team?`,
+        options,
+        answer: teamDriverNames.join(" and "),
+      };
+    });
+
+    // Combine all questions and shuffle them
+    return shuffleArray([
+      ...raceQuestions,
+      ...driverNationalityQuestions,
+      ...teamQuestions,
+    ]);
+  };
+
+  const handleAnswerButtonClick = (selectedOption) => {
+    if (selectedOption === questions[currentQuestionIndex].answer) {
+      const newScore = score + 1;
+      setScore(newScore);
+
+      // Update high score and save to localStorage if it's a new high score
+      if (newScore > highScore) {
+        setHighScore(newScore);
+        localStorage.setItem("highScore", newScore.toString());
+      }
+    }
+
+    const nextQuestion = currentQuestionIndex + 1;
     if (nextQuestion < questions.length) {
-      setCurrentQuestion(nextQuestion);
+      setCurrentQuestionIndex(nextQuestion);
     } else {
-      setShowScore(true);
+      setIsQuizFinished(true);
     }
   };
 
+  if (isQuizFinished) {
+    return (
+      <div className="score-section">
+        <div>Your Score: {score}</div>
+        <div>High Score: {highScore}</div>
+      </div>
+    );
+  }
+
   return (
     <div className="quiz">
-      {showScore ? (
-        <div className="score-section">
-          You scored {score} out of {questions.length}
+      <div className="question-section">
+        <div className="question-count">
+          <span>Question {currentQuestionIndex + 1}</span>/{questions.length}
         </div>
-      ) : (
-        <>
-          <div className="question-section">
-            <div className="question-count">
-              <span>Question {currentQuestion + 1}</span>/{questions.length}
-            </div>
-            <div className="question-text">
-              {questions[currentQuestion].questionText}
-            </div>
-          </div>
-          <div className="answer-section">
-            {questions[currentQuestion].answerOptions.map(
-              (answerOption, index) => (
-                <button
-                  key={index}
-                  onClick={() =>
-                    handleAnswerButtonClick(answerOption.isCorrect)
-                  }
-                >
-                  {answerOption.answerText}
-                </button>
-              )
-            )}
-          </div>
-        </>
-      )}
+        <div className="question-text">
+          {questions[currentQuestionIndex]?.question}
+        </div>
+      </div>
+      <div className="answer-section">
+        {questions[currentQuestionIndex]?.options.map((option, index) => (
+          <button key={index} onClick={() => handleAnswerButtonClick(option)}>
+            {option}
+          </button>
+        ))}
+      </div>
     </div>
   );
+}
+
+// Helper functions
+function shuffleArray(array) {
+  return array.sort(() => Math.random() - 0.5);
+}
+
+function randomNationalities(drivers, excludeNationality) {
+  return shuffleArray(
+    drivers
+      .filter((driver) => driver.nationality !== excludeNationality)
+      .map((driver) => driver.nationality)
+  ).slice(0, 3);
 }
 
 export default Quiz;
