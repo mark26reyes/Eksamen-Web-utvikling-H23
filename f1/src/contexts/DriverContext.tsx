@@ -2,63 +2,70 @@ import { createContext, useState, useEffect, FC, ReactNode } from "react";
 import { IDriver } from "../interfaces/IDriver";
 import DriverService from "../services/DriverService";
 
-// Definerer interfacet for konteksten, som beskriver hva konteksten vil inneholde
+// Definerer interfacet for DriverContext.
 interface IDriverContext {
-  drivers: IDriver[]; // Liste over drivere
-  addDriver: (newDriver: IDriver) => void; // Funksjon for å legge til en ny driver
-  searchDriverByName: (name: string) => void; // Funksjon for å søke etter drivere basert på navn
-  searchTerm: string; // Søkeordet som brukes for filtrering
+  drivers: IDriver[]; // Fullstendig liste over sjåfører.
+  filteredDrivers: IDriver[]; // Filtrert liste basert på søkeord.
+  addDriver: (newDriver: IDriver) => void; // Legger til en ny sjåfør.
+  searchDriverByName: (name: string) => void; // Søker etter sjåfører basert på navn.
+  searchTerm: string;
 }
 
-// Oppretter konteksten med en standardverdi av null
+// Oppretter en React Context for å dele data om sjåfører.
 export const DriverContext = createContext<IDriverContext | null>(null);
 
-// Definerer typen for props som Provider-komponenten vil akseptere
+// Definerer typen for props i DriverProvider-komponenten.
 interface DriverProviderProps {
-  children: ReactNode; // Barn-komponentene som vil bli innhyllet av Provider
+  children: ReactNode;
 }
 
-// Provider-komponenten som gjør konteksten tilgjengelig for sine barn
+// Provider-komponenten for DriverContext.
 export const DriverProvider: FC<DriverProviderProps> = ({ children }) => {
-  const [drivers, setDrivers] = useState<IDriver[]>([]); // Tilstand for å holde på listen over drivere
-  const [searchTerm, setSearchTerm] = useState(""); // Tilstand for å holde på søkeordet
+  const [drivers, setDrivers] = useState<IDriver[]>([]);
+  const [filteredDrivers, setFilteredDrivers] = useState<IDriver[]>([]);
+  const [searchTerm, setSearchTerm] = useState("");
 
-  // useEffect for å hente drivere når komponenten monteres
+  // Henter sjåførdata
   useEffect(() => {
     getDriversFromService();
   }, []);
 
-  // Funksjon for å hente drivere fra en ekstern tjeneste
+  // Async funksjon for å hente sjåførdata.
   const getDriversFromService = async () => {
     const driversFromService = await DriverService.getAllDrivers();
-    if (driversFromService) {
-      setDrivers(driversFromService);
-    } else {
-      setDrivers([]);
-    }
+    setDrivers(driversFromService || []);
+    setFilteredDrivers(driversFromService || []);
   };
 
-  // Funksjon for å legge til en ny driver i listen
+  // Legger til en ny sjåfør i listen.
   const addDriver = (newDriver: IDriver) => {
     setDrivers([...drivers, newDriver]);
+    setFilteredDrivers([...drivers, newDriver]);
   };
 
-  // Funksjon for å filtrere drivere basert på søkeord
+  // Søker etter sjåfører basert på gitt navn.
   const searchDriverByName = (name: string) => {
     setSearchTerm(name);
     if (name === "") {
-      return drivers;
+      setFilteredDrivers(drivers); // Nullstiller filtrerte sjåfører hvis søkeordet er tomt.
     } else {
-      return drivers.filter((driver) =>
+      const filtered = drivers.filter((driver) =>
         driver.name.toLowerCase().includes(name.toLowerCase())
       );
+      setFilteredDrivers(filtered); // Oppdaterer filtrerte sjåfører basert på søkeord.
     }
   };
 
-  // Returnerer Provider-komponenten med kontekstverdier
+  // Returnerer Provider-komponent
   return (
     <DriverContext.Provider
-      value={{ drivers, addDriver, searchDriverByName, searchTerm }}
+      value={{
+        drivers,
+        filteredDrivers,
+        addDriver,
+        searchDriverByName,
+        searchTerm,
+      }}
     >
       {children}
     </DriverContext.Provider>
