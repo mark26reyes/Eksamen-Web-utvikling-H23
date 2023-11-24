@@ -131,7 +131,11 @@ function Quiz() {
       </div>
       <div className="answer-section">
         {questions[currentQuestionIndex]?.options.map((option, index) => (
-          <button key={index} onClick={() => handleAnswerButtonClick(option)}>
+          <button
+            key={index}
+            onClick={() => handleAnswerButtonClick(option)}
+            className="btn btn-dark m-3"
+          >
             {option}
           </button>
         ))}
