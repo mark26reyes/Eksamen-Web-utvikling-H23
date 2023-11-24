@@ -1,10 +1,4 @@
-import React, {
-  createContext,
-  useState,
-  useEffect,
-  FC,
-  ReactNode,
-} from "react";
+import { createContext, useState, useEffect, FC, ReactNode } from "react";
 import { IDriver } from "../interfaces/IDriver";
 import DriverService from "../services/DriverService";
 

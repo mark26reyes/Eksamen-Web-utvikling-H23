@@ -1,20 +1,19 @@
 :root {
-  --red: #e20600; /* Define your red color here */
-  --white: #ffffff; /* Define your white color here */
-  --black: #000000; /* Define your black color here */
+  --red: #e20600;
+  --white: #ffffff;
+  --black: #000000;
 }
 
 nav {
-  background-color: var(--white); /* Using white color */
-  color: var(--black); /* Using black color */
+  background-color: var(--white);
+  color: var(--black);
 }
 
 nav {
-  background-color: var(--red); /* Using red color */
-  color: var(--white); /* Using white color */
+  background-color: var(--red);
+  color: var(--white);
 }
 
-/* Path: f1/src/App.js */
 .no-overflow {
   overflow: hidden;
 }
@@ -26,7 +25,6 @@ nav {
   width: 100%;
 }
 
-/* In your CSS file */
 .driver-image {
   width: 412px;
   height: 412px;

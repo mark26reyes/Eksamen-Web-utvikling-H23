@@ -2,11 +2,13 @@ import React, { useState } from "react";
 import DriverService from "../../services/DriverService";
 
 function AddDriver() {
+  // State-variabler for å holde styr på input-feltene og bilde
   const [driverName, setDriverName] = useState("");
   const [driverAge, setDriverAge] = useState("");
   const [driverNationality, setDriverNationality] = useState("");
   const [image, setImage] = useState(null);
 
+  // Event handler for endringer i input-feltene
   const handleChange = (e) => {
     switch (e.currentTarget.name) {
       case "name":
@@ -19,35 +21,45 @@ function AddDriver() {
         setDriverNationality(e.currentTarget.value);
         break;
       case "image":
+        // Lagrer det valgte bildet
         setImage(e.currentTarget.files[0]);
         break;
     }
   };
 
+  // Event handler for skjemainnsending
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Assuming the base URL and image path are known
+    // Lager bilde-URL basert på sjåførens navn
     const imageUrl = `/images/drivers/${driverName}.png`;
 
+    // Lager et objekt med sjåførens informasjon
     const newDriver = {
       name: driverName,
       age: driverAge,
       nationality: driverNationality,
-      image: imageUrl, // Add the image URL here
+      image: imageUrl,
     };
 
+    // Sender informasjonen til tjenesten for å legge til en ny sjåfør
     await DriverService.postDriver(newDriver, image);
+
+    // Nullstiller input-feltene etter innsending
     setDriverName("");
     setDriverAge("");
     setDriverNationality("");
+
+    // Omlaster siden for å vise oppdatert liste over sjåfører
     window.location.href = "/drivers";
   };
 
+  // JSX for komponenten
   return (
     <section className="border-bottom border-dark pb-5 w-50">
       <h3 className="pb-4">Register as a new driver</h3>
       <form onSubmit={handleSubmit}>
+        {/* Input-felt for sjåførens navn */}
         <label className="d-flex flex-column w-50">
           Name:{" "}
           <input
@@ -60,6 +72,7 @@ function AddDriver() {
         </label>
         <br />
 
+        {/* Input-felt for sjåførens alder */}
         <label className="d-flex flex-column w-50">
           Age:{" "}
           <input
@@ -72,6 +85,7 @@ function AddDriver() {
         </label>
         <br />
 
+        {/* Input-felt for sjåførens nasjonalitet */}
         <label className="d-flex flex-column w-50">
           Nationality:{" "}
           <input
@@ -83,12 +97,16 @@ function AddDriver() {
           />
         </label>
         <br />
+
+        {/* Input-felt for å velge bilde av sjåføren */}
         <label className="d-flex flex-column">
           Image:
           <input name="image" onChange={handleChange} type="file" />
-          PS: The image need to be saved as a PNG file.
+          PS: The image needs to be saved as a PNG file.
         </label>
         <br />
+
+        {/* Knapp for å legge til ny sjåfør */}
         <button className="btn bg-dark text-light rounded" type="submit">
           Add driver
         </button>

@@ -1,5 +1,7 @@
+// Importerer Quiz-komponenten
 import Quiz from "../components/quiz/Quiz";
 
+// Funksjonell komponent som representerer siden for F1 Quiz
 const QuizPage = () => {
   return (
     <>
@@ -9,6 +11,7 @@ const QuizPage = () => {
         <h3 className="border-bottom border-dark pt-5 pb-5 f1-black-font fs-1">
           F1 Quiz
         </h3>
+        {/* Inkluderer Quiz-komponenten */}
         <Quiz />
       </section>
       <br />

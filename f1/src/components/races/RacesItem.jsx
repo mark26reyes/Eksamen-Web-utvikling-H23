@@ -1,7 +1,7 @@
-// RacesItem.js
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css"; // Importerer Bootstrap CSS
 
+// Funksjonell komponent for å vise informasjon om et løp i en tabellrad
 const RacesItem = ({ winnerName, winnerTime, grandPrix, numberOfLaps }) => {
   return (
     <tr className="table-row">

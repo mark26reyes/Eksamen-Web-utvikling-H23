@@ -1,20 +1,23 @@
-import React from 'react';
+// Nødvedige imports og komponenter
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import DriversPage from "./pages/DriversPage";
 import TeamsPage from "./pages/TeamsPage";
 import RacesPage from "./pages/RacesPage";
 import QuizPage from "./pages/QuizPage";
-import { QuizProvider } from "./contexts/QuizContext"; // Import QuizProvider
-import { DriverProvider } from "./contexts/DriverContext"; // Import DriverProvider
+import { QuizProvider } from "./contexts/QuizContext";
+import { DriverProvider } from "./contexts/DriverContext";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
   return (
-    <DriverProvider> {/* Omslutt Router og dens barn med DriverProvider */}
+    <DriverProvider>
+      {" "}
+      {/* Omslutt Router og dens barn med DriverProvider */}
       <Router>
         <header>
+          {/* Navigasjonsmeny med lenker til forskjellige sider */}
           <nav className="navbar navbar-expand navbar-dark p-3 fixed-top">
             <a href="/">
               <img
@@ -55,6 +58,7 @@ function App() {
           </nav>
         </header>
 
+        {/* Definer ruter for forskjellige sider */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/drivers" element={<DriversPage />} />
@@ -76,4 +80,3 @@ function App() {
 }
 
 export default App;
-
