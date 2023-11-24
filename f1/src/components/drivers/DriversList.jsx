@@ -1,37 +1,32 @@
-// Importerer nødvendige React-hooks og komponenter
-import { useContext, useEffect } from "react";
-import React from "react";
+import React, { useContext } from "react";
 import DriversItem from "./DriversItem";
-import DriverService from "../../services/DriverService";
 import DriverContext from "../../contexts/DriverContext";
 import SearchDriver from "./SearchDriver";
 
-// Funksjonell komponent som representerer listen over F1-sjåfører
+// Viser en liste over F1-sjåfører.
 const DriversList = () => {
-  // Henter sjåførdata fra konteksten ved hjelp av useContext-hook
-  const { drivers } = useContext(DriverContext);
+  // Bruker konteksten til å hente en filtrert liste av sjåfører.
+  const { filteredDrivers } = useContext(DriverContext);
 
-  // Funksjon for å generere JSX for hver sjåfør i listen
+  // Genererer JSX for hver sjåfør i den filtrerte listen.
   const getDriversJSX = () => {
-    const driversJSX = drivers.map((_drivers, i) => (
-      // Oppretter en DriversItem-komponent for hver sjåfør med nødvendig informasjon
+    return filteredDrivers.map((driver, i) => (
+      // Oppretter en DriversItem-komponent for hver sjåfør med nødvendige props.
       <DriversItem
         key={i}
-        name={_drivers.name}
-        age={_drivers.age}
-        image={_drivers.image}
-        nationality={_drivers.nationality}
+        name={driver.name}
+        age={driver.age}
+        image={driver.image}
+        nationality={driver.nationality}
       />
     ));
-    return driversJSX;
   };
 
-  // JSX for selve komponenten
   return (
     <div className="container">
       <div className="header-flex border-bottom border-dark pb-3">
         <h3 className="f1-black-font fs-1">F1 Drivers 2023</h3>
-        <SearchDriver />
+        <SearchDriver /> 
       </div>
       <br />
 
@@ -51,3 +46,4 @@ const DriversList = () => {
 };
 
 export default DriversList;
+s;
