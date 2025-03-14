@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "CXV/LLGJf3iFW0OaKpMxwSTq8/UQn49zoDbPjdepeOy/zzUUKbh1n4JhpiqveHzBiodOYmDApGZzyKH9soyhmA==",
   "success": true,
   "projectFilePath": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/F1API.csproj",
+=======
+  "dgSpecHash": "OaA2IuUiEfRENxM7BwQ6txSjYXT4orGUHD+ss7ZgwG+ABlMO73htkfpTM3xDanT+YglqyvMtJZq8IRv0fxxnnA==",
+  "success": true,
+  "projectFilePath": "/Users/mark/Downloads/Eksamen-Web-utvikling-H23 2/F1API/F1API.csproj",
+>>>>>>> 77390fb5aa296a06d36deacd7a5600ba2aeb36c3
   "expectedPackageFiles": [
     "/Users/mark/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/mark/.nuget/packages/microsoft.aspnetcore.openapi/7.0.12/microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",

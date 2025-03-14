@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/F1API.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/F1API.csproj",
         "packagesPath": "/Users/mark/.nuget/packages/",
         "outputPath": "/Users/mark/Desktop/Eksamen-Web-utvikling-H23/F1API/obj/",
+=======
+    "/Users/mark/Downloads/Eksamen-Web-utvikling-H23 2/F1API/F1API.csproj": {}
+  },
+  "projects": {
+    "/Users/mark/Downloads/Eksamen-Web-utvikling-H23 2/F1API/F1API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mark/Downloads/Eksamen-Web-utvikling-H23 2/F1API/F1API.csproj",
+        "projectName": "F1API",
+        "projectPath": "/Users/mark/Downloads/Eksamen-Web-utvikling-H23 2/F1API/F1API.csproj",
+        "packagesPath": "/Users/mark/.nuget/packages/",
+        "outputPath": "/Users/mark/Downloads/Eksamen-Web-utvikling-H23 2/F1API/obj/",
+>>>>>>> 77390fb5aa296a06d36deacd7a5600ba2aeb36c3
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mark/.nuget/NuGet/NuGet.Config"
