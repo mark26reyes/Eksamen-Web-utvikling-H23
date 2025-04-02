@@ -19,13 +19,6 @@ function App() {
         <header>
           {/* Navigasjonsmeny med lenker til forskjellige sider */}
           <nav className="navbar navbar-expand navbar-dark p-3 fixed-top">
-            <a href="/">
-              <img
-                src="/public/formula1-logo-hvit.png"
-                width={"150rem"}
-                alt="logo"
-              />
-            </a>
             <div className="navbar-collapse justify-content-end">
               <ul className="navbar-nav">
                 <li>

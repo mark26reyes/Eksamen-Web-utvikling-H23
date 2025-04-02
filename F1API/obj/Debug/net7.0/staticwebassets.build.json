@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4y+J8LRk4TDK4dVlq/8KOn10WlFSu/vQ0NGLi8daGh4=",
+  "Hash": "ITugqEsCv4qOYuH3R2Yd5/H79DR+Hlh0qvyKPy7Gu5k=",
   "Source": "F1API",
   "BasePath": "_content/F1API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "F1API\\wwwroot",
       "Source": "F1API",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\.DS_Store",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\.DS_Store",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\.DS_Store",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\.DS_Store",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/.DS_Store",
       "AssetKind": "All",
@@ -51,78 +51,10 @@
       "OriginalItemSpec": "wwwroot\\images\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\alfaromeo.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\cars\\.DS_Store",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
-      "BasePath": "_content/F1API",
-      "RelativePath": "images/alfaromeo.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\alfaromeo.png"
-    },
-    {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\alphatauri.png",
-      "SourceId": "F1API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
-      "BasePath": "_content/F1API",
-      "RelativePath": "images/alphatauri.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\alphatauri.png"
-    },
-    {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\alpine.png",
-      "SourceId": "F1API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
-      "BasePath": "_content/F1API",
-      "RelativePath": "images/alpine.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\alpine.png"
-    },
-    {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\astonmartin.png",
-      "SourceId": "F1API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
-      "BasePath": "_content/F1API",
-      "RelativePath": "images/astonmartin.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\astonmartin.png"
-    },
-    {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\cars\\.DS_Store",
-      "SourceId": "F1API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/cars/.DS_Store",
       "AssetKind": "All",
@@ -136,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cars\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\cars\\alfaromeo.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\cars\\alfaromeo.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/cars/alfaromeo.png",
       "AssetKind": "All",
@@ -153,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cars\\alfaromeo.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\cars\\alphatauri.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\cars\\alphatauri.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/cars/alphatauri.png",
       "AssetKind": "All",
@@ -170,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cars\\alphatauri.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\cars\\alpine.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\cars\\alpine.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/cars/alpine.png",
       "AssetKind": "All",
@@ -187,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cars\\alpine.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\cars\\astonmartin.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\cars\\astonmartin.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/cars/astonmartin.png",
       "AssetKind": "All",
@@ -204,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cars\\astonmartin.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\cars\\ferrari.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\cars\\ferrari.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/cars/ferrari.png",
       "AssetKind": "All",
@@ -221,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cars\\ferrari.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\cars\\haas.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\cars\\haas.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/cars/haas.png",
       "AssetKind": "All",
@@ -238,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cars\\haas.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\cars\\mclaren.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\cars\\mclaren.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/cars/mclaren.png",
       "AssetKind": "All",
@@ -255,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cars\\mclaren.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\cars\\mercedes.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\cars\\mercedes.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/cars/mercedes.png",
       "AssetKind": "All",
@@ -272,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cars\\mercedes.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\cars\\redbull.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\cars\\redbull.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/cars/redbull.png",
       "AssetKind": "All",
@@ -289,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cars\\redbull.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\cars\\williams.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\cars\\williams.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/cars/williams.png",
       "AssetKind": "All",
@@ -306,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cars\\williams.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\albon.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\albon.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/albon.png",
       "AssetKind": "All",
@@ -323,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\albon.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\alonso.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\alonso.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/alonso.png",
       "AssetKind": "All",
@@ -340,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\alonso.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\bottas.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\bottas.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/bottas.png",
       "AssetKind": "All",
@@ -357,10 +289,27 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\bottas.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\devries.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\Damian.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
+      "BasePath": "_content/F1API",
+      "RelativePath": "images/drivers/Damian.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\drivers\\Damian.png"
+    },
+    {
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\devries.png",
+      "SourceId": "F1API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/devries.png",
       "AssetKind": "All",
@@ -374,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\devries.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\gasly.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\gasly.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/gasly.png",
       "AssetKind": "All",
@@ -391,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\gasly.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\guanyu.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\guanyu.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/guanyu.png",
       "AssetKind": "All",
@@ -408,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\guanyu.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\hamilton.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\hamilton.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/hamilton.png",
       "AssetKind": "All",
@@ -425,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\hamilton.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\hulkenberg.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\hulkenberg.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/hulkenberg.png",
       "AssetKind": "All",
@@ -442,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\hulkenberg.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\lawson.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\lawson.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/lawson.png",
       "AssetKind": "All",
@@ -459,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\lawson.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\leclerc.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\leclerc.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/leclerc.png",
       "AssetKind": "All",
@@ -476,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\leclerc.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\magnussen.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\magnussen.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/magnussen.png",
       "AssetKind": "All",
@@ -493,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\magnussen.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\norris.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\norris.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/norris.png",
       "AssetKind": "All",
@@ -510,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\norris.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\ocon.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\ocon.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/ocon.png",
       "AssetKind": "All",
@@ -527,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\ocon.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\perez.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\perez.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/perez.png",
       "AssetKind": "All",
@@ -544,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\perez.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\piastri.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\piastri.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/piastri.png",
       "AssetKind": "All",
@@ -561,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\piastri.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\ricciardo.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\ricciardo.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/ricciardo.png",
       "AssetKind": "All",
@@ -578,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\ricciardo.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\russell.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\russell.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/russell.png",
       "AssetKind": "All",
@@ -595,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\russell.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\sainz.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\sainz.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/sainz.png",
       "AssetKind": "All",
@@ -612,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\sainz.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\sargeant.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\sargeant.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/sargeant.png",
       "AssetKind": "All",
@@ -629,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\sargeant.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\stroll.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\stroll.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/stroll.png",
       "AssetKind": "All",
@@ -646,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\stroll.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\tsunoda.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\tsunoda.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/tsunoda.png",
       "AssetKind": "All",
@@ -663,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\tsunoda.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\verstappen.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\verstappen.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/verstappen.png",
       "AssetKind": "All",
@@ -680,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\verstappen.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\drivers\\williams.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\images\\drivers\\williams.png",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "images/drivers/williams.png",
       "AssetKind": "All",
@@ -697,95 +646,10 @@
       "OriginalItemSpec": "wwwroot\\images\\drivers\\williams.png"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\ferrari.png",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\index.html",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
-      "BasePath": "_content/F1API",
-      "RelativePath": "images/ferrari.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\ferrari.png"
-    },
-    {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\haas.png",
-      "SourceId": "F1API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
-      "BasePath": "_content/F1API",
-      "RelativePath": "images/haas.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\haas.png"
-    },
-    {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\mclaren.png",
-      "SourceId": "F1API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
-      "BasePath": "_content/F1API",
-      "RelativePath": "images/mclaren.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\mclaren.png"
-    },
-    {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\mercedes.png",
-      "SourceId": "F1API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
-      "BasePath": "_content/F1API",
-      "RelativePath": "images/mercedes.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\mercedes.png"
-    },
-    {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\images\\redbull.png",
-      "SourceId": "F1API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
-      "BasePath": "_content/F1API",
-      "RelativePath": "images/redbull.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\redbull.png"
-    },
-    {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\index.html",
-      "SourceId": "F1API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -799,10 +663,27 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\scripts\\index.js",
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\package-lock.json",
       "SourceId": "F1API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
+      "BasePath": "_content/F1API",
+      "RelativePath": "package-lock.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\package-lock.json"
+    },
+    {
+      "Identity": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\scripts\\index.js",
+      "SourceId": "F1API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\wwwroot\\",
       "BasePath": "_content/F1API",
       "RelativePath": "scripts/index.js",
       "AssetKind": "All",

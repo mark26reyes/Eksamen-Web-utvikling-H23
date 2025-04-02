@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\F1API.csproj": {}
+    "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\F1API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\F1API.csproj": {
+    "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\F1API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\F1API.csproj",
+        "projectUniqueName": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\F1API.csproj",
         "projectName": "F1API",
-        "projectPath": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\F1API.csproj",
+        "projectPath": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\F1API.csproj",
         "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\obj\\",
+        "outputPath": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\damia\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -47,6 +47,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[7.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",

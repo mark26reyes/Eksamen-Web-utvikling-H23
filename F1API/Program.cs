@@ -1,41 +1,45 @@
 using F1API.Context;
+using F1API.Interfaces;  // Ensure correct namespaces
+using F1API.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+var services = builder.Services;
+var config = builder.Configuration;
 
+// Configure Entity Framework Core with SQLite and enable lazy loading proxies
+services.AddDbContext<F1Context>(options =>
+    options.UseLazyLoadingProxies()
+           .UseSqlite(config.GetConnectionString("DefaultConnection")));
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-// Konfigurerer EF Core til å bruke SQLite med oppgitt tilkoblingsstreng.
-builder.Services.AddDbContext<F1Context>(options => options.UseSqlite(connectionString));
+// Configure CORS policy
+const string CorsPolicy = "AllowAll";
+services.AddCors(options =>
+    options.AddPolicy(CorsPolicy, policy =>
+        policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin()));
 
-// Setter opp CORS-policy for å tillate alle headere, metoder og opprinnelser.
-builder.Services.AddCors(options => {
-    options.AddPolicy("AllowAll", policy => 
-        policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
-});
+// Add essential services
+services.AddControllers();
+services.AddEndpointsApiExplorer();
+services.AddSwaggerGen();
 
-
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+// Register services (Make sure interfaces are in the correct namespace)
+services.AddScoped<IDriverService, DriverService>();
+services.AddScoped<IImageUploadService, ImageUploadService>();
+services.AddScoped<IRaceService, RaceService>();
+services.AddScoped<ITeamService, TeamService>();
 
 var app = builder.Build();
 
+// Enable Swagger (uncomment if you want it in production)
+app.UseSwagger();
+app.UseSwaggerUI();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// Ensure static files are accessible (for images)
+app.UseHttpsRedirection();
+app.UseStaticFiles(); // This serves files from wwwroot
+app.UseCors(CorsPolicy);
+app.UseAuthorization();
+app.MapControllers();
 
-app.UseHttpsRedirection(); 
-
-app.UseStaticFiles(); // Aktiverer bruk av statiske filer.
-
-app.UseCors("AllowAll"); // Bruker den definerte CORS-policyen.
-
-app.UseAuthorization(); 
-
-app.MapControllers(); 
-
-app.Run(); 
+app.Run();

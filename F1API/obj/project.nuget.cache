@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JW1ZmRUGeina63bA3umiGkg4vfi/8hXi3lta54kNwvlkJ0TF0eVRqokQaJ6U/Q8PfgR4AZfhAYKAs5cdkiJzIg==",
+  "dgSpecHash": "PsQUH0bFcfD4dGAX1Tv2mND7mmulA1sDX4rjd8q+hBKkTheuMBbwndupDr+zPM0d3n/9ghzs1oTDn6DYAqrmZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\damia\\OneDrive\\Skrivebord\\HK Studie Docs\\Eksamen-Web-utvikling-H23\\f1api\\F1API.csproj",
+  "projectFilePath": "C:\\Users\\damia\\Downloads\\Eksamen-Web-utvikling-H23\\Eksamen-Web-utvikling-H23\\F1API\\F1API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\damia\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.12\\microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.13\\microsoft.data.sqlite.core.7.0.13.nupkg.sha512",
@@ -11,6 +12,7 @@
     "C:\\Users\\damia\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.13\\microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.13\\microsoft.entityframeworkcore.analyzers.7.0.13.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.13\\microsoft.entityframeworkcore.design.7.0.13.nupkg.sha512",
+    "C:\\Users\\damia\\.nuget\\packages\\microsoft.entityframeworkcore.proxies\\7.0.5\\microsoft.entityframeworkcore.proxies.7.0.5.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.13\\microsoft.entityframeworkcore.relational.7.0.13.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\7.0.13\\microsoft.entityframeworkcore.sqlite.7.0.13.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\7.0.13\\microsoft.entityframeworkcore.sqlite.core.7.0.13.nupkg.sha512",
@@ -36,6 +38,7 @@
     "C:\\Users\\damia\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
+    "C:\\Users\\damia\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
